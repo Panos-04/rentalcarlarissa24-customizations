@@ -45,9 +45,9 @@ I worked on the website’s **development and customization**, including:
 - **HTML**
 - **CSS**
 - **JavaScript**
-- **WooCommerce** (where applicable)
-- **TranslatePress** (where applicable)
-- **Hostinger** (production hosting)
+- **WooCommerce** 
+- **TranslatePress** 
+- **Hostinger** 
 
 ---
 
@@ -60,8 +60,6 @@ I worked on the website’s **development and customization**, including:
 │   ├── desktop/            # Desktop UI screenshots
 │   ├── mobile/             # Mobile UI screenshots
 │   ├── user-actions/       # User-flow screenshots (if applicable)
-│   ├── project-overview.md     # (Optional) technical project summary
-│   ├── setup-notes.md          # (Optional) notes about sanitized repo / setup limitations
 │   └── fixes-and-features.md   # Key issues solved and features/customizations implemented
 ├── .gitignore
 └── README.md
