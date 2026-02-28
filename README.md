@@ -56,14 +56,12 @@ I worked on the website’s **development and customization**, including:
 .
 ├── child-theme/                # Child theme files (styles, functions, templates, assets)
 ├── custom-plugins/             # Custom plugins created for project-specific functionality
-├── docs/
-│   ├── screenshots/
-│   │   ├── desktop/            # Desktop UI screenshots
-│   │   ├── mobile/             # Mobile UI screenshots
-│   │   └── user-actions/       # User-flow screenshots (if applicable)
+├── screenshots/
+│   ├── desktop/            # Desktop UI screenshots
+│   ├── mobile/             # Mobile UI screenshots
+│   └── user-actions/       # User-flow screenshots (if applicable)
 │   ├── project-overview.md     # (Optional) technical project summary
 │   ├── setup-notes.md          # (Optional) notes about sanitized repo / setup limitations
 │   └── fixes-and-features.md   # Key issues solved and features/customizations implemented
-├── snippets/                   # Reusable snippets / notes / isolated fixes
 ├── .gitignore
 └── README.md
