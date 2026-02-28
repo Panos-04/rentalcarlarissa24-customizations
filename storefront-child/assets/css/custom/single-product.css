@@ -1,0 +1,925 @@
+/* =========================================================
+   Larissa Cars — Single Product Layout (lc-*)
+   File: assets/css/single-product.css
+   ========================================================= */
+
+/* Page + container */
+body.single-product {
+    background: #0f1115;
+}
+
+.lc-product {
+    max-width: 1180px;
+    margin: 28px auto 60px;
+    padding: 0 18px;
+    color: rgba(255, 255, 255, .92);
+}
+
+/* Headings */
+.lc-h2 {
+    margin: 0 0 12px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: .2px;
+}
+
+/* =========================================================
+     HERO (Gallery + Booking)
+     ========================================================= */
+.lc-hero {
+    display: grid;
+    grid-template-columns: 1.25fr .75fr;
+    gap: 18px;
+    align-items: start;
+}
+
+/* Gallery shell */
+.lc-gallery {
+    border-radius: 18px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, .04);
+    border: 1px solid rgba(255, 255, 255, .10);
+    box-shadow: 0 18px 60px rgba(0, 0, 0, .35);
+}
+
+/* Main image */
+.lc-gallery__main {
+    margin: 0;
+    padding: 12px;
+    background: rgba(0, 0, 0, .22);
+}
+
+.lc-gallery__mainImg {
+    width: 100%;
+    height: auto;
+    max-height: 520px;
+    object-fit: contain;
+    display: block;
+    border-radius: 14px;
+}
+
+/* Thumbnails */
+.lc-gallery__thumbs {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    gap: 10px;
+    padding: 12px;
+    border-top: 1px solid rgba(255, 255, 255, .08);
+    background: rgba(255, 255, 255, .03);
+}
+
+.lc-thumb {
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, .10);
+    background: rgba(0, 0, 0, .25);
+    border-radius: 14px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform .12s ease, border-color .12s ease, background .12s ease;
+}
+
+.lc-thumb:hover {
+    transform: translateY(-1px);
+    border-color: rgba(255, 255, 255, .22);
+    background: rgba(0, 0, 0, .35);
+}
+
+.lc-thumb.is-active {
+    border-color: rgba(220, 0, 0, .9);
+    box-shadow: 0 0 0 2px rgba(220, 0, 0, .25);
+}
+
+.lc-thumb__img {
+    width: 100%;
+    height: 58px;
+    object-fit: cover;
+    display: block;
+}
+
+/* =========================================================
+     Booking Card
+     ========================================================= */
+.lc-book {
+    position: sticky;
+    top: 18px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, .05);
+    border: 1px solid rgba(255, 255, 255, .10);
+    box-shadow: 0 18px 60px rgba(0, 0, 0, .35);
+    padding: 16px;
+    overflow: hidden;
+}
+
+.lc-book__header {
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, .10);
+    margin-bottom: 12px;
+}
+
+.lc-title {
+    margin: 0 0 6px;
+    font-size: 26px;
+    line-height: 1.15;
+    font-weight: 900;
+}
+
+.lc-price {
+    font-size: 16px;
+    font-weight: 800;
+    opacity: .95;
+}
+
+.lc-price .amount {
+    font-weight: 900;
+}
+
+/* Trust row */
+.lc-trust {
+    display: grid;
+    gap: 8px;
+    margin: 12px 0 14px;
+    padding: 10px 12px;
+    border-radius: 14px;
+    background: rgba(0, 0, 0, .22);
+    border: 1px solid rgba(255, 255, 255, .08);
+}
+
+.lc-trust__item {
+    font-size: 13px;
+    opacity: .92;
+}
+
+/* Booking form box */
+.lc-book__form {
+    margin-top: 10px;
+}
+
+/* Make form fields pleasant */
+.lc-book input,
+.lc-book select,
+.lc-book textarea {
+    border-radius: 12px;
+}
+
+/* Buttons */
+.lc-book button,
+.lc-book .button,
+.lc-book a.button {
+    border-radius: 14px;
+    font-weight: 900;
+    padding: 14px 16px;
+}
+
+.lc-book__fine {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 1.5;
+    opacity: .75;
+}
+
+/* =========================================================
+     Body sections
+     ========================================================= */
+.lc-body {
+    margin-top: 18px;
+    display: grid;
+    gap: 16px;
+}
+
+/* Highlights */
+.lc-highlights {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.lc-highlights__item {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, .04);
+    border: 1px solid rgba(255, 255, 255, .10);
+    padding: 12px 14px;
+}
+
+.lc-highlights__k {
+    font-size: 12px;
+    opacity: .72;
+    margin-bottom: 6px;
+    letter-spacing: .2px;
+}
+
+.lc-highlights__v {
+    font-size: 14px;
+    font-weight: 800;
+    opacity: .96;
+}
+
+/* Description */
+.lc-desc {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, .04);
+    border: 1px solid rgba(255, 255, 255, .10);
+    padding: 16px;
+}
+
+.lc-desc__text {
+    font-size: 14px;
+    line-height: 1.7;
+    opacity: .92;
+}
+
+.lc-desc__text p {
+    margin: 0 0 12px;
+}
+
+.lc-desc__text p:last-child {
+    margin-bottom: 0;
+}
+
+/* =========================================================
+     Photo story cards
+     ========================================================= */
+.lc-story {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, .04);
+    border: 1px solid rgba(255, 255, 255, .10);
+    padding: 16px;
+}
+
+.lc-story__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.lc-storyCard {
+    border-radius: 16px;
+    background: rgba(0, 0, 0, .22);
+    border: 1px solid rgba(255, 255, 255, .08);
+    padding: 12px;
+}
+
+.lc-storyCard__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.lc-storyCard__label {
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: .2px;
+}
+
+.lc-storyCard__thumb {
+    width: 54px;
+    height: 54px;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, .10);
+    background: rgba(255, 255, 255, .06);
+    flex: 0 0 auto;
+}
+
+.lc-storyCard__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.lc-storyCard__text {
+    font-size: 13px;
+    line-height: 1.65;
+    opacity: .88;
+}
+
+.lc-storyCard__text p {
+    margin: 0 0 10px;
+}
+
+.lc-storyCard__text p:last-child {
+    margin-bottom: 0;
+}
+
+/* =========================================================
+     Specs / Additional info
+     ========================================================= */
+.lc-specs {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, .04);
+    border: 1px solid rgba(255, 255, 255, .10);
+    padding: 16px;
+}
+
+.lc-specs__box {
+    opacity: .92;
+}
+
+/* Make tables look nicer if Woo outputs them */
+.lc-specs table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lc-specs th,
+.lc-specs td {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+    font-size: 14px;
+}
+
+.lc-specs th {
+    text-align: left;
+    font-weight: 800;
+    opacity: .85;
+}
+
+.lc-specs td {
+    text-align: right;
+    opacity: .95;
+}
+
+/* =========================================================
+     Mobile responsiveness
+     ========================================================= */
+@media (max-width: 980px) {
+    .lc-hero {
+        grid-template-columns: 1fr;
+    }
+
+    .lc-book {
+        position: static;
+    }
+
+    .lc-gallery__mainImg {
+        max-height: 420px;
+    }
+
+    .lc-highlights {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 560px) {
+    .lc-title {
+        font-size: 22px;
+    }
+
+    .lc-gallery__thumbs {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .lc-thumb__img {
+        height: 54px;
+    }
+
+    .lc-story__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* =========================================================
+   Text readability fix inside lc- sections
+   ========================================================= */
+.lc-product,
+.lc-product * {
+    color: rgba(255, 255, 255, .92);
+}
+
+.lc-desc__text,
+.lc-desc__text p,
+.lc-storyCard__text,
+.lc-storyCard__text p {
+    color: rgba(255, 255, 255, .88);
+}
+
+/* If Woo outputs tables/labels with their own colors, force readable */
+.lc-product .woocommerce *,
+.lc-product label,
+.lc-product .woocommerce-message,
+.lc-product .woocommerce-info,
+.lc-product .woocommerce-error {
+    color: rgba(255, 255, 255, .92);
+}
+
+/* Inputs should remain dark text on white fields */
+.lc-product input,
+.lc-product select,
+.lc-product textarea {
+    color: #111;
+}
+
+/* =========================================================
+      Hero now only gallery (no right booking card)
+      ========================================================= */
+.lc-hero {
+    grid-template-columns: 1fr;
+}
+
+/* =========================================================
+      Sticky bottom price bar
+      ========================================================= */
+.lc-stickyBar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    padding: 12px 16px;
+    background: rgba(10, 10, 12, .75);
+    border-top: 1px solid rgba(255, 255, 255, .12);
+    backdrop-filter: blur(10px);
+}
+
+.lc-stickyBar__inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.lc-stickyBar__title {
+    font-size: 13px;
+    font-weight: 800;
+    opacity: .92;
+}
+
+.lc-stickyBar__price {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.lc-stickyBar__price .amount {
+    font-weight: 900;
+}
+
+.lc-stickyBar__cta {
+    border: 0;
+    border-radius: 14px;
+    padding: 12px 16px;
+    font-weight: 900;
+    cursor: pointer;
+    background: rgba(220, 0, 0, .95);
+    color: #fff;
+    min-width: 140px;
+}
+
+/* Give the page room so the sticky bar doesn't cover content */
+.lc-product {
+    padding-bottom: 88px;
+}
+
+/* =========================================================
+      Booking drawer (slide-up modal)
+      ========================================================= */
+.lc-drawer {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: none;
+}
+
+.lc-drawer.is-open {
+    display: block;
+}
+
+.lc-drawer__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .55);
+}
+
+.lc-drawer__panel {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: min(920px, 96vw);
+    max-height: 86vh;
+    overflow: auto;
+    border-radius: 18px 18px 0 0;
+    background: rgba(20, 20, 24, .92);
+    border: 1px solid rgba(255, 255, 255, .14);
+    box-shadow: 0 24px 80px rgba(0, 0, 0, .55);
+    backdrop-filter: blur(12px);
+}
+
+.lc-drawer__head {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 16px;
+    background: rgba(20, 20, 24, .96);
+    border-bottom: 1px solid rgba(255, 255, 255, .10);
+}
+
+.lc-drawer__name {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.lc-drawer__price {
+    font-size: 13px;
+    opacity: .9;
+}
+
+.lc-drawer__close {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, .14);
+    background: rgba(255, 255, 255, .06);
+    color: #fff;
+    cursor: pointer;
+}
+
+.lc-drawer__body {
+    padding: 16px;
+}
+
+/* Woo form polish inside drawer */
+.lc-drawer__body input,
+.lc-drawer__body select,
+.lc-drawer__body textarea {
+    border-radius: 12px;
+}
+
+.lc-drawer__body .button,
+.lc-drawer__body button {
+    border-radius: 14px;
+    font-weight: 900;
+    padding: 14px 16px;
+}
+
+.lc-drawer__fine {
+    padding: 0 16px 16px;
+    font-size: 12px;
+    opacity: .75;
+}
+
+/* Lock scroll when drawer open */
+html.lc-lock,
+html.lc-lock body {
+    overflow: hidden;
+}
+
+/* On desktop: make drawer a centered modal instead of bottom sheet */
+@media (min-width: 980px) {
+    .lc-drawer__panel {
+        top: 50%;
+        bottom: auto;
+        transform: translate(-50%, -50%);
+        border-radius: 18px;
+        max-height: min(760px, 86vh);
+    }
+}
+
+/* =========================================================
+   Drawer form: force LIGHT theme + readable labels
+   (use !important to override plugin styles)
+   ========================================================= */
+
+/* Make sure ALL text inside the drawer is readable */
+.lc-drawer,
+.lc-drawer * {
+    color: #111 !important;
+}
+
+/* Head area stays light text on dark */
+.lc-drawer__head,
+.lc-drawer__head * {
+    color: #fff !important;
+}
+
+/* Drawer panel background slightly lighter (less “black hole”) */
+.lc-drawer__panel {
+    background: #f6f7f9 !important;
+    border: 1px solid rgba(0, 0, 0, .10) !important;
+}
+
+/* Body spacing + background */
+.lc-drawer__body {
+    background: transparent !important;
+}
+
+/* Labels / section titles */
+.lc-drawer__body label,
+.lc-drawer__body .label,
+.lc-drawer__body .form-row label,
+.lc-drawer__body h1,
+.lc-drawer__body h2,
+.lc-drawer__body h3,
+.lc-drawer__body h4,
+.lc-drawer__body legend {
+    color: #111 !important;
+    font-weight: 800 !important;
+}
+
+/* Any “muted” helper text */
+.lc-drawer__body small,
+.lc-drawer__body .description,
+.lc-drawer__body .woocommerce-info {
+    color: rgba(17, 17, 17, .75) !important;
+}
+
+/* Inputs / selects */
+.lc-drawer__body input[type="text"],
+.lc-drawer__body input[type="email"],
+.lc-drawer__body input[type="tel"],
+.lc-drawer__body input[type="number"],
+.lc-drawer__body input[type="date"],
+.lc-drawer__body input[type="time"],
+.lc-drawer__body input[type="search"],
+.lc-drawer__body input[type="password"],
+.lc-drawer__body select,
+.lc-drawer__body textarea {
+    background: #fff !important;
+    color: #111 !important;
+    border: 1px solid rgba(0, 0, 0, .18) !important;
+    border-radius: 14px !important;
+    box-shadow: none !important;
+}
+
+/* Placeholder text */
+.lc-drawer__body input::placeholder,
+.lc-drawer__body textarea::placeholder {
+    color: rgba(17, 17, 17, .45) !important;
+}
+
+/* Focus */
+.lc-drawer__body input:focus,
+.lc-drawer__body select:focus,
+.lc-drawer__body textarea:focus {
+    outline: none !important;
+    border-color: rgba(220, 0, 0, .65) !important;
+    box-shadow: 0 0 0 4px rgba(220, 0, 0, .12) !important;
+}
+
+/* Dropdown “Pricing Info” etc */
+.lc-drawer__body .select2-container--default .select2-selection--single,
+.lc-drawer__body .select2-container--default .select2-selection--multiple {
+    background: #fff !important;
+    border: 1px solid rgba(0, 0, 0, .18) !important;
+    border-radius: 14px !important;
+    min-height: 46px !important;
+}
+
+.lc-drawer__body .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #111 !important;
+    line-height: 46px !important;
+}
+
+.lc-drawer__body .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 46px !important;
+}
+
+/* Radio / checkbox area cards (your insurance/waiver boxes) */
+.lc-drawer__body .wcrp,
+.lc-drawer__body .wcpr,
+.lc-drawer__body .radio,
+.lc-drawer__body .checkbox {
+    color: #111 !important;
+}
+
+/* If plugin renders “option cards”, force them light */
+.lc-drawer__body .option,
+.lc-drawer__body .option-card,
+.lc-drawer__body .rental-option,
+.lc-drawer__body .insurance-option {
+    background: #fff !important;
+    border: 1px solid rgba(0, 0, 0, .14) !important;
+    color: #111 !important;
+}
+
+/* Buttons */
+.lc-drawer__body .button,
+.lc-drawer__body button,
+.lc-drawer__body input[type="submit"] {
+    background: rgba(220, 0, 0, .95) !important;
+    color: #fff !important;
+    border: 0 !important;
+    border-radius: 14px !important;
+    font-weight: 900 !important;
+    padding: 14px 16px !important;
+}
+
+/* Totals/summary boxes inside drawer */
+.lc-drawer__body .cart_totals,
+.lc-drawer__body .woocommerce-checkout-review-order,
+.lc-drawer__body .order-total,
+.lc-drawer__body .woocommerce-cart-form {
+    background: #fff !important;
+    border: 1px solid rgba(0, 0, 0, .10) !important;
+    border-radius: 16px !important;
+    color: #111 !important;
+}
+
+/* =========================================================
+   Force dark text across lc layout (90% black)
+   ========================================================= */
+.lc-product,
+.lc-product * {
+    color: rgba(0, 0, 0, .90) !important;
+}
+
+/* Keep sticky bar and drawer header white */
+.lc-stickyBar,
+.lc-stickyBar * {
+    color: #fff !important;
+}
+
+.lc-drawer__head,
+.lc-drawer__head * {
+    color: #fff !important;
+}
+
+/* Ensure form inputs keep dark text */
+.lc-product input,
+.lc-product select,
+.lc-product textarea {
+    color: rgba(0, 0, 0, .92) !important;
+}
+
+/* =========================================================
+   Story cards with background image + overlay
+   ========================================================= */
+.lc-storyCard {
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+    border: 1px solid rgba(0, 0, 0, .10) !important;
+    background: #fff !important;
+}
+
+/* background image */
+.lc-storyCard::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: var(--lc-bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .75;
+    /* your requested opacity */
+    filter: saturate(1.05) contrast(1.05);
+}
+
+/* overlay for readability (optional but recommended) */
+.lc-storyCard::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, .55);
+    /* makes text readable on any photo */
+}
+
+/* keep content above overlays */
+.lc-storyCard>* {
+    position: relative;
+    z-index: 1;
+}
+
+/* tighten text */
+.lc-storyCard__text {
+    color: rgba(0, 0, 0, .88) !important;
+}
+
+/* labels bold */
+.lc-storyCard__label {
+    color: rgba(0, 0, 0, .92) !important;
+    font-weight: 900 !important;
+}
+
+/* OPTIONAL: hide the old thumbnail since background is used */
+.lc-storyCard__thumb {
+    display: none !important;
+}
+
+/* Main image */
+.lc-gallery__main {
+    margin: 0;
+    padding: 12px;
+    background: rgba(0, 0, 0, .18);
+}
+
+.lc-gallery__mainImg {
+    width: 100%;
+    height: auto;
+    max-height: 520px;
+    object-fit: contain;
+    display: block;
+    border-radius: 14px;
+}
+
+/* Thumbs carousel */
+.lc-thumbs {
+    position: relative;
+    padding: 12px 54px;
+    /* space for arrows */
+    border-top: 1px solid rgba(0, 0, 0, .10);
+    background: rgba(255, 255, 255, .06);
+}
+
+.lc-thumbs__viewport {
+    overflow: hidden;
+}
+
+.lc-thumbs__track {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.lc-thumb {
+    flex: 0 0 auto;
+    width: 72px;
+    height: 56px;
+    padding: 0;
+    border-radius: 14px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, .18);
+    background: rgba(255, 255, 255, .25);
+    transition: transform .12s ease, border-color .12s ease;
+}
+
+.lc-thumb:hover {
+    transform: translateY(-1px);
+}
+
+.lc-thumb.is-active {
+    border-color: rgba(220, 0, 0, .95);
+    /* red indicator */
+    box-shadow: 0 0 0 3px rgba(220, 0, 0, .18);
+}
+
+.lc-thumb__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Thumb arrows */
+.lc-thumbs__nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 38px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, .18);
+    background: rgba(255, 255, 255, .65);
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    font-size: 18px;
+    font-weight: 900;
+    justify-content: center;
+    align-content: center;
+}
+
+.lc-thumbs__nav.is-prev {
+    left: 10px;
+}
+
+.lc-thumbs__nav.is-next {
+    right: 10px;
+}
+
+/* Mobile sizing */
+@media (max-width: 560px) {
+    .lc-thumb {
+        width: 64px;
+        height: 50px;
+    }
+
+    .lc-thumbs {
+        padding: 12px 48px;
+    }
+}
+
+
+/* Always keep the xdsoft picker above modals and positioned reliably */
+.xdsoft_datetimepicker {
+    position: fixed !important;
+    z-index: 999999 !important;
+}
+
+/* Optional: keep it inside viewport */
+.xdsoft_datetimepicker {
+    max-width: calc(100vw - 20px) !important;
+}
+
+
+
+/* 2000 × 1500 px (4:3) for every photo. */

@@ -1,0 +1,2838 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Storefront Child\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-20 11:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.2.27\n"
+"X-Domain: larissa24"
+
+#: woocommerce/assets/client/blocks/customer-account/block.json:1
+msgctxt "block description"
+msgid ""
+"A block that allows your customers to log in and out of their accounts in "
+"your store."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-taxonomy-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/taxonomy/block.json:1
+msgctxt "block description"
+msgid ""
+"A block that displays a taxonomy field, allowing searching, selection, and "
+"creation of new items"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/password/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-password-field/block.json:1
+msgctxt "block description"
+msgid "A checkbox and an input to type a password to view a product."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/catalog-visibility/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-catalog-visibility-field/block.json:1
+msgctxt "block description"
+msgid "A checkbox to manage the catalog visibility of the product."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-tag-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/tag/block.json:1
+msgctxt "block description"
+msgid "A field to select product tags."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/accordion-group/block.json:1
+msgctxt "block description"
+msgid "A group of headers and associated expandable content."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-grouped-product-item/block.json:1
+msgctxt "block description"
+msgid ""
+"A list item template that represents a child product within the Grouped "
+"Product Selector block."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/notice/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-notice-field/block.json:1
+msgctxt "block description"
+msgid "A notice field for use in the product editor."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/pricing/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-pricing-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-regular-price-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-sale-price-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/regular-price/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/sale-price/block.json:1
+msgctxt "block description"
+msgid "A product price block with currency display."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/checkbox/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-checkbox-field/block.json:1
+msgctxt "block description"
+msgid "A reusable checkbox for the product editor."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/number/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-number-field/block.json:1
+msgctxt "block description"
+msgid "A reusable number field for the product editor."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-select-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/select/block.json:1
+msgctxt "block description"
+msgid "A select field for use in the product editor."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/accordion-item/block.json:1
+msgctxt "block description"
+msgid "A single accordion that displays a header and expandable content."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-price-slider/block.json:1
+msgctxt "block description"
+msgid "A slider helps shopper choose a price range."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-variation-selector-attribute/block.json:1
+msgctxt "block description"
+msgid ""
+"A template for attribute name and options that will be applied to all "
+"variable products with attributes."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-text-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/text/block.json:1
+msgctxt "block description"
+msgid "A text field for use in the product editor."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-text-area-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/text-area/block.json:1
+msgctxt "block description"
+msgid "A text-area field for use in the product editor."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/accordion-header/block.json:1
+msgctxt "block description"
+msgid "Accordion header."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/accordion-panel/block.json:1
+msgctxt "block description"
+msgid "Accordion Panel"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-grouped-product-item-selector/block.json:1
+msgctxt "block description"
+msgid ""
+"Add a way of selecting a child product within the Grouped Product block. "
+"Depending on the type of product and its properties, this might be a button, "
+"a checkbox, or a link."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/proceed-to-checkout-block/block.json:1
+msgctxt "block description"
+msgid "Allow customers proceed to Checkout."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-note-block/block.json:1
+msgctxt "block description"
+msgid "Allow customers to add a note to their order."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-express-payment-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-express-payment-block/block.json:1
+msgctxt "block description"
+msgid "Allow customers to breeze through with quick payment options."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-create-account/block.json:1
+msgctxt "block description"
+msgid "Allow customers to create an account after their purchase."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-actions-block/block.json:1
+msgctxt "block description"
+msgid "Allow customers to place their order."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-clear-button/block.json:1
+msgctxt "block description"
+msgid "Allows shoppers to clear active filters."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-line-items-block/block.json:1
+msgctxt "block description"
+msgid "Block containing current line items in Cart."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-title-label-block/block.json:1
+msgctxt "block description"
+msgid "Block that displays the 'Your cart' part of the Mini-Cart Title block."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-cart-button-block/block.json:1
+msgctxt "block description"
+msgid "Block that displays the cart button when the Mini-Cart has products."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-checkout-button-block/block.json:1
+msgctxt "block description"
+msgid ""
+"Block that displays the checkout button when the Mini-Cart has products."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-footer-block/block.json:1
+msgctxt "block description"
+msgid "Block that displays the footer of the Mini-Cart block."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-title-items-counter-block/block.json:1
+msgctxt "block description"
+msgid ""
+"Block that displays the items counter part of the Mini-Cart Title block."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-products-table-block/block.json:1
+msgctxt "block description"
+msgid "Block that displays the products table of the Mini-Cart block."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-shopping-button-block/block.json:1
+msgctxt "block description"
+msgid "Block that displays the shopping button when the Mini-Cart is empty."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-title-block/block.json:1
+msgctxt "block description"
+msgid "Block that displays the title of the Mini-Cart block."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/empty-mini-cart-contents-block/block.json:1
+msgctxt "block description"
+msgid "Blocks that are displayed when the Mini-Cart is empty."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-billing-address-block/block.json:1
+msgctxt "block description"
+msgid "Collect your customer's billing address."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-contact-information-block/block.json:1
+msgctxt "block description"
+msgid "Collect your customer's contact information."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-shipping-address-block/block.json:1
+msgctxt "block description"
+msgid "Collect your customer's shipping address."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-items-block/block.json:1
+msgctxt "block description"
+msgid "Column containing cart items."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-fields-block/block.json:1
+msgctxt "block description"
+msgid "Column containing checkout address fields."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-totals-block/block.json:1
+msgctxt "block description"
+msgid "Column containing the cart totals."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-totals-block/block.json:1
+msgctxt "block description"
+msgid "Column containing the checkout totals."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/conditional/block.json:1
+msgctxt "block description"
+msgid "Container to only conditionally render inner blocks."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/collapsible/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-collapsible/block.json:1
+msgctxt "block description"
+msgid "Container with collapsible inner blocks."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/filled-cart-block/block.json:1
+msgctxt "block description"
+msgid "Contains blocks that are displayed when the cart contains products."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/empty-cart-block/block.json:1
+msgctxt "block description"
+msgid "Contains blocks that are displayed when the cart is empty."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/filled-mini-cart-contents-block/block.json:1
+msgctxt "block description"
+msgid "Contains blocks that display the content of the Mini-Cart."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-review-template/block.json:1
+msgctxt "block description"
+msgid ""
+"Contains the block elements used to display product reviews, like the title, "
+"author, date, rating and more."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-template/block.json:1
+msgctxt "block description"
+msgid "Contains the block elements used to render a product."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-items-block/block.json:1
+msgctxt "block description"
+msgid ""
+"Contains the products table and other custom blocks of filled mini-cart."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-status/block.json:1
+msgctxt "block description"
+msgid ""
+"Display a \"thank you\" message, or a sentence regarding the current order "
+"status."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/mini-cart/block.json:1
+msgctxt "block description"
+msgid "Display a button for shoppers to quickly view their cart."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-form/block.json:1
+msgctxt "block description"
+msgid ""
+"Display a button that lets customers add a product to their cart. Use the "
+"added options to optimize for different product types."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-button/block.json:1
+msgctxt "block description"
+msgid ""
+"Display a call to action button which either adds the product to the cart, "
+"or links to the product page."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/checkout/block.json:1
+msgctxt "block description"
+msgid "Display a checkout form so your customers can submit orders."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-collection/block.json:1
+msgctxt "block description"
+msgid "Display a collection of products from your store."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-on-sale/block.json:1
+msgctxt "block description"
+msgid "Display a grid of products currently on sale."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-category/block.json:1
+msgctxt "block description"
+msgid "Display a grid of products from your selected categories."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/products-by-attribute/block.json:1
+msgctxt "block description"
+msgid "Display a grid of products with selected attributes."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-tag/block.json:1
+msgctxt "block description"
+msgid "Display a grid of products with selected tags."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-best-sellers/block.json:1
+msgctxt "block description"
+msgid "Display a grid of your all-time best selling products."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-new/block.json:1
+msgctxt "block description"
+msgid "Display a grid of your newest products."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-top-rated/block.json:1
+msgctxt "block description"
+msgid "Display a grid of your top rated products."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-grouped-product-selector/block.json:1
+msgctxt "block description"
+msgid "Display a group of products that can be added to the cart."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/cart-link/block.json:1
+msgctxt "block description"
+msgid "Display a link to the cart."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-checkbox-list/block.json:1
+msgctxt "block description"
+msgid "Display a list of filter options."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/mini-cart-contents/block.json:1
+msgctxt "block description"
+msgid "Display a Mini-Cart widget."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-details/block.json:1
+msgctxt "block description"
+msgid "Display a product's description, attributes, and reviews"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-image-gallery/block.json:1
+msgctxt "block description"
+msgid "Display a product's images."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-reviews/block.json:1
+msgctxt "block description"
+msgid "Display a product's reviews"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-review-form/block.json:1
+msgctxt "block description"
+msgid "Display a product's reviews form."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-meta/block.json:1
+msgctxt "block description"
+msgid "Display a product’s SKU, categories, tags, and more."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/handpicked-products/block.json:1
+msgctxt "block description"
+msgid "Display a selection of hand-picked products in a grid."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-summary/block.json:1
+msgctxt "block description"
+msgid "Display a short description about a product."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/single-product/block.json:1
+msgctxt "block description"
+msgid ""
+"Display a single product of your choice with full control over its "
+"presentation."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-accepted-payment-methods-block/block.json:1
+msgctxt "block description"
+msgid "Display accepted payment methods."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-additional-fields-wrapper/block.json:1
+msgctxt "block description"
+msgid ""
+"Display additional checkout fields from the 'contact' and 'order' locations."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-quantity-selector/block.json:1
+msgctxt "block description"
+msgid ""
+"Display an input field customers can use to select the number of products to "
+"add to their cart. "
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-variation-selector/block.json:1
+msgctxt "block description"
+msgid ""
+"Display any product variations available to select from and add to cart."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-chips/block.json:1
+msgctxt "block description"
+msgid "Display filter options as chips."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/payment-method-icons/block.json:1
+msgctxt "block description"
+msgid "Display icons for available payment methods."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-downloads/block.json:1
+msgctxt "block description"
+msgid "Display links to purchased downloads."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-gallery-large-image-next-previous/block.json:1
+msgctxt "block description"
+msgid "Display next and previous buttons."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-specifications/block.json:1
+msgctxt "block description"
+msgid "Display product weight, dimensions, and attributes."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/all-products/block.json:1
+msgctxt "block description"
+msgid "Display products from your store in a grid layout."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/related-products/block.json:1
+msgctxt "block description"
+msgid "Display related products."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-removable-chips/block.json:1
+msgctxt "block description"
+msgid "Display removable active filters as chips."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/reviews-by-product/block.json:1
+msgctxt "block description"
+msgid "Display reviews for your products."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-shipping-methods-block/block.json:1
+msgctxt "block description"
+msgid "Display shipping options and rates for your store."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/store-notices/block.json:1
+msgctxt "block description"
+msgid ""
+"Display shopper-facing notifications generated by WooCommerce or extensions."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-variation-selector-attribute-options/block.json:1
+msgctxt "block description"
+msgid "Display the attribute options associated with a variable product."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-average-rating/block.json:1
+msgctxt "block description"
+msgid "Display the average rating of a product"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-rating-stars/block.json:1
+msgctxt "block description"
+msgid "Display the average rating of a product with stars"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-rating/block.json:1
+msgctxt "block description"
+msgid "Display the average rating of a product."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/active-filters/block.json:1
+#: woocommerce/assets/client/blocks/product-filter-active/block.json:1
+msgctxt "block description"
+msgid "Display the currently active filters."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-downloads-wrapper/block.json:1
+msgctxt "block description"
+msgid "Display the downloadable products section."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-totals/block.json:1
+msgctxt "block description"
+msgid "Display the items purchased and order totals."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-gallery-large-image/block.json:1
+msgctxt "block description"
+msgid "Display the Large Image of a product."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-additional-fields/block.json:1
+msgctxt "block description"
+msgid "Display the list of additional field values from the current order."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-image/block.json:1
+msgctxt "block description"
+msgid "Display the main product image."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-results-count/block.json:1
+msgctxt "block description"
+msgid ""
+"Display the number of products on the archive page or search result page."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-billing-address/block.json:1
+msgctxt "block description"
+msgid "Display the order confirmation billing address."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-billing-wrapper/block.json:1
+msgctxt "block description"
+msgid "Display the order confirmation billing section."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-shipping-address/block.json:1
+msgctxt "block description"
+msgid "Display the order confirmation shipping address."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-shipping-wrapper/block.json:1
+msgctxt "block description"
+msgid "Display the order confirmation shipping section."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-totals-wrapper/block.json:1
+msgctxt "block description"
+msgid "Display the order details section."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-summary/block.json:1
+msgctxt "block description"
+msgid "Display the order summary on the order confirmation page."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-price/block.json:1
+msgctxt "block description"
+msgid "Display the price of a product."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-grouped-product-item-label/block.json:1
+msgctxt "block description"
+msgid "Display the product title as a label or paragraph."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-rating-counter/block.json:1
+msgctxt "block description"
+msgid "Display the review count of a product"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-gallery-thumbnails/block.json:1
+msgctxt "block description"
+msgid "Display the Thumbnails of a product."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-title/block.json:1
+msgctxt "block description"
+msgid "Display the title of a product."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-reviews-pagination-numbers/block.json:1
+msgctxt "block description"
+msgid "Displays a list of page numbers for product reviews pagination."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-reviews-pagination/block.json:1
+msgctxt "block description"
+msgid ""
+"Displays a paginated navigation to next/previous set of product reviews, "
+"when applicable."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-reviews-title/block.json:1
+msgctxt "block description"
+msgid "Displays a title with the number of reviews."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-additional-information/block.json:1
+msgctxt "block description"
+msgid ""
+"Displays additional information provided by third-party extensions for the "
+"current order."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-sale-badge/block.json:1
+msgctxt "block description"
+msgid "Displays an on-sale badge if the product is on-sale."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-review-content/block.json:1
+msgctxt "block description"
+msgid "Displays the contents of a product review."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-review-date/block.json:1
+msgctxt "block description"
+msgid "Displays the date on which the review was posted."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-description/block.json:1
+msgctxt "block description"
+msgid "Displays the description of the product."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-review-author-name/block.json:1
+msgctxt "block description"
+msgid "Displays the name of the author of the review."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-reviews-pagination-next/block.json:1
+msgctxt "block description"
+msgid "Displays the next product review's page link."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-reviews-pagination-previous/block.json:1
+msgctxt "block description"
+msgid "Displays the previous product review's page link."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-review-rating/block.json:1
+msgctxt "block description"
+msgid "Displays the rating of a product review."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-sku/block.json:1
+msgctxt "block description"
+msgid "Displays the SKU of a product."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/page-content-wrapper/block.json:1
+msgctxt "block description"
+msgid "Displays WooCommerce page content."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/catalog-sorting/block.json:1
+msgctxt "block description"
+msgid "Enable customers to change the sorting order of the products."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-rating/block.json:1
+msgctxt "block description"
+msgid "Enable customers to filter the product collection by rating."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-taxonomy/block.json:1
+msgctxt "block description"
+msgid ""
+"Enable customers to filter the product collection by selecting one or more "
+"taxonomy terms, such as categories, brands, or tags."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/price-filter/block.json:1
+msgctxt "block description"
+msgid "Enable customers to filter the product grid by choosing a price range."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/rating-filter/block.json:1
+msgctxt "block description"
+msgid "Enable customers to filter the product grid by rating."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/attribute-filter/block.json:1
+#: woocommerce/assets/client/blocks/product-filter-attribute/block.json:1
+msgctxt "block description"
+msgid ""
+"Enable customers to filter the product grid by selecting one or more "
+"attributes, such as color."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/stock-filter/block.json:1
+msgctxt "block description"
+msgid "Enable customers to filter the product grid by stock status."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/breadcrumbs/block.json:1
+msgctxt "block description"
+msgid ""
+"Enable customers to keep track of their location within the store and "
+"navigate back to parent pages."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-terms-block/block.json:1
+msgctxt "block description"
+msgid ""
+"Ensure that customers agree to your Terms & Conditions and Privacy Policy."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-variation-selector-attribute-name/block.json:1
+msgctxt "block description"
+msgid "Format the name of an attribute associated with a variable product."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/featured-product/block.json:1
+msgctxt "block description"
+msgid "Highlight a product or variation."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-price/block.json:1
+msgctxt "block description"
+msgid "Let shoppers filter products by choosing a price range."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filters/block.json:1
+msgctxt "block description"
+msgid "Let shoppers filter products displayed on the page."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-stock-indicator/block.json:1
+msgctxt "block description"
+msgid ""
+"Let shoppers know when products are out of stock or on backorder. This block "
+"is hidden when products are in stock."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/notice-edit-single-variation/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/notice-has-variations/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-has-variations-notice/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-single-variation-notice/block.json:1
+msgctxt "block description"
+msgid "Notice description"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-payment-block/block.json:1
+msgctxt "block description"
+msgid "Payment options for your store."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-additional-information-block/block.json:1
+msgctxt "block description"
+msgid "Render additional fields in the 'Additional information' location."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/classic-shortcode/block.json:1
+msgctxt "block description"
+msgid "Renders classic WooCommerce shortcodes."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-shipping-method-block/block.json:1
+msgctxt "block description"
+msgid "Select between shipping or local pickup."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/all-reviews/block.json:1
+msgctxt "block description"
+msgid "Show a list of all product reviews."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-categories/block.json:1
+msgctxt "block description"
+msgid "Show all product categories as a list or dropdown."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-block/block.json:1
+msgctxt "block description"
+msgid "Show customers a summary of their order."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/reviews-by-category/block.json:1
+msgctxt "block description"
+msgid "Show product reviews from specific categories."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-gallery/block.json:1
+msgctxt "block description"
+msgid "Showcase your products relevant images and media."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-cart-items-block/block.json:1
+msgctxt "block description"
+msgid "Shows cart items."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-pickup-options-block/block.json:1
+msgctxt "block description"
+msgid "Shows local pickup locations."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-coupon-form-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-coupon-form-block/block.json:1
+msgctxt "block description"
+msgid "Shows the apply coupon form."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-discount-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-discount-block/block.json:1
+msgctxt "block description"
+msgid "Shows the cart discount row."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-fee-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-fee-block/block.json:1
+msgctxt "block description"
+msgid "Shows the cart fee row."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-shipping-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-shipping-block/block.json:1
+msgctxt "block description"
+msgid "Shows the cart shipping row."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-subtotal-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-subtotal-block/block.json:1
+msgctxt "block description"
+msgid "Shows the cart subtotal row."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-taxes-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-taxes-block/block.json:1
+msgctxt "block description"
+msgid "Shows the cart taxes row."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-cross-sells-block/block.json:1
+msgctxt "block description"
+msgid "Shows the Cross-Sells block."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-cross-sells-products-block/block.json:1
+msgctxt "block description"
+msgid "Shows the Cross-Sells products."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-heading-block/block.json:1
+msgctxt "block description"
+msgid "Shows the heading row."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-totals-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-totals-block/block.json:1
+msgctxt "block description"
+msgid "Shows the subtotal, fees, discounts, shipping and taxes."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-email/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-inventory-email-field/block.json:1
+msgctxt "block description"
+msgid "Stock management minimum quantity."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-collection-no-results/block.json:1
+msgctxt "block description"
+msgid ""
+"The contents of this block will display when there are no products found."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/linked-product-list/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-linked-list-field/block.json:1
+msgctxt "block description"
+msgid "The linked product list."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/attributes/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-attributes-field/block.json:1
+msgctxt "block description"
+msgid "The product attributes."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-quantity/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-inventory-quantity-field/block.json:1
+msgctxt "block description"
+msgid "The product available quantity."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/custom-fields-toggle/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-custom-fields-toggle-field/block.json:1
+msgctxt "block description"
+msgid "The product custom fields toggle."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/custom-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-custom-fields/block.json:1
+msgctxt "block description"
+msgid "The product custom fields."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-description-field/block.json:1
+msgctxt "block description"
+msgid "The product description."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-details-section-description/block.json:1
+msgctxt "block description"
+msgid "The product details section description."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/downloads/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-downloads-field/block.json:1
+msgctxt "block description"
+msgid "The product downloads."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/images/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-images-field/block.json:1
+msgctxt "block description"
+msgid "The product images."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-list/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-list-field/block.json:1
+msgctxt "block description"
+msgid "The product list."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/name/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-name-field/block.json:1
+msgctxt "block description"
+msgid "The product name."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-radio-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/radio/block.json:1
+msgctxt "block description"
+msgid "The product radio."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-schedule-sale-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/schedule-sale/block.json:1
+msgctxt "block description"
+msgid "The product schedule sale fields."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-section-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/section-description/block.json:1
+msgctxt "block description"
+msgid "The product section description."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-section/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/section/block.json:1
+msgctxt "block description"
+msgid "The product section."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-shipping-class-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/shipping-class/block.json:1
+msgctxt "block description"
+msgid "The product shipping class field."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-shipping-dimensions-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/shipping-dimensions/block.json:1
+msgctxt "block description"
+msgid "The product shipping dimensions fields."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-sku/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-sku-field/block.json:1
+msgctxt "block description"
+msgid "The product sku."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-subsection-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/subsection-description/block.json:1
+msgctxt "block description"
+msgid "The product subsection description."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-subsection/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/subsection/block.json:1
+msgctxt "block description"
+msgid "The product subsection."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-summary-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/summary/block.json:1
+msgctxt "block description"
+msgid "The product summary."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-tab/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/tab/block.json:1
+msgctxt "block description"
+msgid "The product tab."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-toggle-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/toggle/block.json:1
+msgctxt "block description"
+msgid "The product toggle."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-variation-items-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/variation-items/block.json:1
+msgctxt "block description"
+msgid "The product variations items."
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-variations-options-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/variation-options/block.json:1
+msgctxt "block description"
+msgid "The product variations options."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options/block.json:1
+msgctxt "block description"
+msgid ""
+"Use blocks to create an \"Add to cart\" area that's customized for different "
+"product types, such as variable and grouped. "
+msgstr ""
+
+#: woocommerce/assets/client/blocks/featured-category/block.json:1
+msgctxt "block description"
+msgid "Visually highlight a product category and encourage prompt action."
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-specifications/block.json:1
+msgctxt "block keyword"
+msgid "additional information"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-collection/block.json:1
+msgctxt "block keyword"
+msgid "all products"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-specifications/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/attributes/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-attributes-field/block.json:1
+msgctxt "block keyword"
+msgid "attributes"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-collection/block.json:1
+msgctxt "block keyword"
+msgid "by attribute"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-collection/block.json:1
+msgctxt "block keyword"
+msgid "by category"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-collection/block.json:1
+msgctxt "block keyword"
+msgid "by tag"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/catalog-visibility/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-catalog-visibility-field/block.json:1
+msgctxt "block keyword"
+msgid "catalog"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/checkbox/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-checkbox-field/block.json:1
+msgctxt "block keyword"
+msgid "checkbox"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-shipping-class-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/shipping-class/block.json:1
+msgctxt "block keyword"
+msgid "class"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-clear-button/block.json:1
+msgctxt "block keyword"
+msgid "clear filters"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/custom-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/custom-fields-toggle/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-custom-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-custom-fields-toggle-field/block.json:1
+msgctxt "block keyword"
+msgid "custom"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-section-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-subsection-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/section-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/subsection-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-description-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-details-section-description/block.json:1
+msgctxt "block keyword"
+msgid "description"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-specifications/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-shipping-dimensions-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/shipping-dimensions/block.json:1
+msgctxt "block keyword"
+msgid "dimensions"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/downloads/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-downloads-field/block.json:1
+msgctxt "block keyword"
+msgid "downloads"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-email/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-inventory-email-field/block.json:1
+msgctxt "block keyword"
+msgid "email"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-summary-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/summary/block.json:1
+msgctxt "block keyword"
+msgid "excerpt"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/custom-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/custom-fields-toggle/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-custom-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-custom-fields-toggle-field/block.json:1
+msgctxt "block keyword"
+msgid "fields"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/images/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-images-field/block.json:1
+msgctxt "block keyword"
+msgid "gallery"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-section/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-subsection/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-tab/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/section/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/subsection/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/tab/block.json:1
+msgctxt "block keyword"
+msgid "group"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/handpicked-products/block.json:1
+msgctxt "block keyword"
+msgid "Handpicked Products"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/images/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-images-field/block.json:1
+msgctxt "block keyword"
+msgid "image"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/images/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-images-field/block.json:1
+msgctxt "block keyword"
+msgid "images"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/checkbox/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/number/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-checkbox-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-number-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-radio-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-toggle-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/radio/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/toggle/block.json:1
+msgctxt "block keyword"
+msgid "input"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-email/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-quantity/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-inventory-email-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-inventory-quantity-field/block.json:1
+msgctxt "block keyword"
+msgid "inventory"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/linked-product-list/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-linked-list-field/block.json:1
+msgctxt "block keyword"
+msgid "linked"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/linked-product-list/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-linked-list-field/block.json:1
+msgctxt "block keyword"
+msgid "list"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-email/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-inventory-email-field/block.json:1
+msgctxt "block keyword"
+msgid "minimum"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/customer-account/block.json:1
+msgctxt "block keyword"
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/name/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-name-field/block.json:1
+msgctxt "block keyword"
+msgid "name"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/notice/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-notice-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/notice-edit-single-variation/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/notice-has-variations/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-has-variations-notice/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-single-variation-notice/block.json:1
+msgctxt "block keyword"
+msgid "notice"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/number/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-number-field/block.json:1
+msgctxt "block keyword"
+msgid "number"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/password/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-password-field/block.json:1
+msgctxt "block keyword"
+msgid "password"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/payment-method-icons/block.json:1
+msgctxt "block keyword"
+msgid "payment methods"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/payment-method-icons/block.json:1
+msgctxt "block keyword"
+msgid "payments"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/pricing/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-pricing-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-regular-price-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-sale-price-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/regular-price/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/sale-price/block.json:1
+msgctxt "block keyword"
+msgid "price"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-collection-no-results/block.json:1
+msgctxt "block keyword"
+msgid "Product Collection"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/checkbox/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/linked-product-list/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/notice/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/number/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/pricing/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-checkbox-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-linked-list-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-notice-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-number-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-pricing-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-radio-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-section/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-section-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-select-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-subsection/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-subsection-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-tab/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-text-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-toggle-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/radio/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/section/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/section-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/select/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/subsection/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/subsection-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/tab/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/text/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/toggle/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/attributes/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/catalog-visibility/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/custom-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/custom-fields-toggle/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/downloads/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/images/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-email/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-quantity/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-sku/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/name/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/notice-edit-single-variation/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/notice-has-variations/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/password/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-attributes-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-catalog-visibility-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-custom-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-custom-fields-toggle-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-description-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-details-section-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-downloads-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-has-variations-notice/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-images-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-inventory-email-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-inventory-quantity-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-list/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-list-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-name-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-password-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-regular-price-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-sale-price-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-schedule-sale-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-shipping-class-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-shipping-dimensions-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-single-variation-notice/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-sku-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-summary-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-tag-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-variation-items-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-variations-options-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/regular-price/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/sale-price/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/schedule-sale/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/shipping-class/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/shipping-dimensions/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/summary/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/tag/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/variation-items/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/variation-options/block.json:1
+msgctxt "block keyword"
+msgid "products"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-collection/block.json:1
+msgctxt "block keyword"
+msgid "Products (Beta)"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-quantity/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-inventory-quantity-field/block.json:1
+msgctxt "block keyword"
+msgid "quantity"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-radio-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-toggle-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/radio/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/toggle/block.json:1
+msgctxt "block keyword"
+msgid "radio"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-text-area-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/text-area/block.json:1
+msgctxt "block keyword"
+msgid "rich-text"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-schedule-sale-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/schedule-sale/block.json:1
+msgctxt "block keyword"
+msgid "sale"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-schedule-sale-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/schedule-sale/block.json:1
+msgctxt "block keyword"
+msgid "schedule"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-section/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-section-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/section/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/section-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-details-section-description/block.json:1
+msgctxt "block keyword"
+msgid "section"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-select-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/select/block.json:1
+msgctxt "block keyword"
+msgid "select"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-shipping-class-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-shipping-dimensions-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/shipping-class/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/shipping-dimensions/block.json:1
+msgctxt "block keyword"
+msgid "shipping"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/single-product/block.json:1
+msgctxt "block keyword"
+msgid "single product"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-sku/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-sku-field/block.json:1
+msgctxt "block keyword"
+msgid "sku"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-subsection/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-subsection-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/subsection/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/subsection-description/block.json:1
+msgctxt "block keyword"
+msgid "subsection"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-summary-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/summary/block.json:1
+msgctxt "block keyword"
+msgid "summary"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-tab/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/tab/block.json:1
+msgctxt "block keyword"
+msgid "tab"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-tag-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/tag/block.json:1
+msgctxt "block keyword"
+msgid "tag"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-taxonomy-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/taxonomy/block.json:1
+msgctxt "block keyword"
+msgid "taxonomy"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-text-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/text/block.json:1
+msgctxt "block keyword"
+msgid "text"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-text-area-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/text-area/block.json:1
+msgctxt "block keyword"
+msgid "textarea"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/name/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-name-field/block.json:1
+msgctxt "block keyword"
+msgid "title"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-variation-items-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-variations-options-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/variation-items/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/variation-options/block.json:1
+msgctxt "block keyword"
+msgid "variations"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-specifications/block.json:1
+msgctxt "block keyword"
+msgid "weight"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/accordion-group/block.json:1
+#: woocommerce/assets/client/blocks/accordion-header/block.json:1
+#: woocommerce/assets/client/blocks/accordion-item/block.json:1
+#: woocommerce/assets/client/blocks/accordion-panel/block.json:1
+#: woocommerce/assets/client/blocks/active-filters/block.json:1
+#: woocommerce/assets/client/blocks/add-to-cart-form/block.json:1
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-grouped-product-item/block.json:1
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-grouped-product-item-label/block.json:1
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-grouped-product-item-selector/block.json:1
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-grouped-product-selector/block.json:1
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-quantity-selector/block.json:1
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-variation-selector/block.json:1
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-variation-selector-attribute/block.json:1
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-variation-selector-attribute-name/block.json:1
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-variation-selector-attribute-options/block.json:1
+#: woocommerce/assets/client/blocks/all-products/block.json:1
+#: woocommerce/assets/client/blocks/all-reviews/block.json:1
+#: woocommerce/assets/client/blocks/attribute-filter/block.json:1
+#: woocommerce/assets/client/blocks/breadcrumbs/block.json:1
+#: woocommerce/assets/client/blocks/cart-link/block.json:1
+#: woocommerce/assets/client/blocks/catalog-sorting/block.json:1
+#: woocommerce/assets/client/blocks/checkout/block.json:1
+#: woocommerce/assets/client/blocks/classic-shortcode/block.json:1
+#: woocommerce/assets/client/blocks/customer-account/block.json:1
+#: woocommerce/assets/client/blocks/featured-category/block.json:1
+#: woocommerce/assets/client/blocks/featured-product/block.json:1
+#: woocommerce/assets/client/blocks/filter-wrapper/block.json:1
+#: woocommerce/assets/client/blocks/handpicked-products/block.json:1
+#: woocommerce/assets/client/blocks/mini-cart/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-additional-fields/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-additional-fields-wrapper/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-additional-information/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-billing-address/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-billing-wrapper/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-create-account/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-downloads/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-downloads-wrapper/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-shipping-address/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-shipping-wrapper/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-status/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-summary/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-totals/block.json:1
+#: woocommerce/assets/client/blocks/order-confirmation-totals-wrapper/block.json:1
+#: woocommerce/assets/client/blocks/page-content-wrapper/block.json:1
+#: woocommerce/assets/client/blocks/price-filter/block.json:1
+#: woocommerce/assets/client/blocks/product-average-rating/block.json:1
+#: woocommerce/assets/client/blocks/product-best-sellers/block.json:1
+#: woocommerce/assets/client/blocks/product-button/block.json:1
+#: woocommerce/assets/client/blocks/product-categories/block.json:1
+#: woocommerce/assets/client/blocks/product-category/block.json:1
+#: woocommerce/assets/client/blocks/product-collection/block.json:1
+#: woocommerce/assets/client/blocks/product-filter-active/block.json:1
+#: woocommerce/assets/client/blocks/product-filter-attribute/block.json:1
+#: woocommerce/assets/client/blocks/product-filter-checkbox-list/block.json:1
+#: woocommerce/assets/client/blocks/product-filter-chips/block.json:1
+#: woocommerce/assets/client/blocks/product-filter-clear-button/block.json:1
+#: woocommerce/assets/client/blocks/product-filter-price/block.json:1
+#: woocommerce/assets/client/blocks/product-filter-price-slider/block.json:1
+#: woocommerce/assets/client/blocks/product-filter-removable-chips/block.json:1
+#: woocommerce/assets/client/blocks/product-filter-taxonomy/block.json:1
+#: woocommerce/assets/client/blocks/product-filters/block.json:1
+#: woocommerce/assets/client/blocks/product-gallery/block.json:1
+#: woocommerce/assets/client/blocks/product-gallery-large-image/block.json:1
+#: woocommerce/assets/client/blocks/product-gallery-large-image-next-previous/block.json:1
+#: woocommerce/assets/client/blocks/product-gallery-thumbnails/block.json:1
+#: woocommerce/assets/client/blocks/product-image/block.json:1
+#: woocommerce/assets/client/blocks/product-image-gallery/block.json:1
+#: woocommerce/assets/client/blocks/product-meta/block.json:1
+#: woocommerce/assets/client/blocks/product-new/block.json:1
+#: woocommerce/assets/client/blocks/product-on-sale/block.json:1
+#: woocommerce/assets/client/blocks/product-price/block.json:1
+#: woocommerce/assets/client/blocks/product-rating/block.json:1
+#: woocommerce/assets/client/blocks/product-rating-counter/block.json:1
+#: woocommerce/assets/client/blocks/product-rating-stars/block.json:1
+#: woocommerce/assets/client/blocks/product-results-count/block.json:1
+#: woocommerce/assets/client/blocks/product-sale-badge/block.json:1
+#: woocommerce/assets/client/blocks/product-sku/block.json:1
+#: woocommerce/assets/client/blocks/product-stock-indicator/block.json:1
+#: woocommerce/assets/client/blocks/product-summary/block.json:1
+#: woocommerce/assets/client/blocks/product-tag/block.json:1
+#: woocommerce/assets/client/blocks/product-template/block.json:1
+#: woocommerce/assets/client/blocks/product-top-rated/block.json:1
+#: woocommerce/assets/client/blocks/products-by-attribute/block.json:1
+#: woocommerce/assets/client/blocks/rating-filter/block.json:1
+#: woocommerce/assets/client/blocks/related-products/block.json:1
+#: woocommerce/assets/client/blocks/reviews-by-category/block.json:1
+#: woocommerce/assets/client/blocks/reviews-by-product/block.json:1
+#: woocommerce/assets/client/blocks/single-product/block.json:1
+#: woocommerce/assets/client/blocks/stock-filter/block.json:1
+#: woocommerce/assets/client/blocks/store-notices/block.json:1
+msgctxt "block keyword"
+msgid "WooCommerce"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/payment-method-icons/block.json:1
+msgctxt "block keyword"
+msgid "woocommerce"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-button/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-cart-button-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-checkout-button-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-shopping-button-block/block.json:1
+msgctxt "block style label"
+msgid "Fill"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-button/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-cart-button-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-checkout-button-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-shopping-button-block/block.json:1
+msgctxt "block style label"
+msgid "Outline"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-accepted-payment-methods-block/block.json:1
+msgctxt "block title"
+msgid "Accepted Payment Methods"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/accordion-item/block.json:1
+msgctxt "block title"
+msgid "Accordion"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/accordion-group/block.json:1
+msgctxt "block title"
+msgid "Accordion Group"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/accordion-header/block.json:1
+msgctxt "block title"
+msgid "Accordion Header"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/accordion-panel/block.json:1
+msgctxt "block title"
+msgid "Accordion Panel"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-create-account/block.json:1
+msgctxt "block title"
+msgid "Account Creation"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-actions-block/block.json:1
+msgctxt "block title"
+msgid "Actions"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-active/block.json:1
+msgctxt "block title"
+msgid "Active"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/active-filters/block.json:1
+msgctxt "block title"
+msgid "Active Filters Controls"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options/block.json:1
+msgctxt "block title"
+msgid "Add to Cart + Options (Beta)"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-button/block.json:1
+msgctxt "block title"
+msgid "Add to Cart Button"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-form/block.json:1
+msgctxt "block title"
+msgid "Add to Cart with Options"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-additional-fields/block.json:1
+msgctxt "block title"
+msgid "Additional Field List"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-additional-fields-wrapper/block.json:1
+msgctxt "block title"
+msgid "Additional Fields"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-additional-information/block.json:1
+msgctxt "block title"
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-additional-information-block/block.json:1
+msgctxt "block title"
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/all-products/block.json:1
+msgctxt "block title"
+msgid "All Products"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/all-reviews/block.json:1
+msgctxt "block title"
+msgid "All Reviews"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-attribute/block.json:1
+msgctxt "block title"
+msgid "Attribute"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-best-sellers/block.json:1
+msgctxt "block title"
+msgid "Best Selling Products"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-billing-address/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-billing-address-block/block.json:1
+msgctxt "block title"
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-billing-wrapper/block.json:1
+msgctxt "block title"
+msgid "Billing Address Section"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-cross-sells-block/block.json:1
+msgctxt "block title"
+msgid "Cart Cross-Sells"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-cross-sells-products-block/block.json:1
+msgctxt "block title"
+msgid "Cart Cross-Sells Products"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-items-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-cart-items-block/block.json:1
+msgctxt "block title"
+msgid "Cart Items"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-line-items-block/block.json:1
+msgctxt "block title"
+msgid "Cart Line Items"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/cart-link/block.json:1
+msgctxt "block title"
+msgid "Cart Link"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-totals-block/block.json:1
+msgctxt "block title"
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/catalog-sorting/block.json:1
+msgctxt "block title"
+msgid "Catalog Sorting"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/checkout/block.json:1
+msgctxt "block title"
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-fields-block/block.json:1
+msgctxt "block title"
+msgid "Checkout Fields"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-totals-block/block.json:1
+msgctxt "block title"
+msgid "Checkout Totals"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-chips/block.json:1
+#: woocommerce/assets/client/blocks/product-filter-removable-chips/block.json:1
+msgctxt "block title"
+msgid "Chips"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/classic-shortcode/block.json:1
+msgctxt "block title"
+msgid "Classic Shortcode"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-clear-button/block.json:1
+msgctxt "block title"
+msgid "Clear filters"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/collapsible/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-collapsible/block.json:1
+msgctxt "block title"
+msgid "Collapsible"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/conditional/block.json:1
+msgctxt "block title"
+msgid "Conditional"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-contact-information-block/block.json:1
+msgctxt "block title"
+msgid "Contact Information"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-coupon-form-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-coupon-form-block/block.json:1
+msgctxt "block title"
+msgid "Coupon Form"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/customer-account/block.json:1
+msgctxt "block title"
+msgid "Customer account"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-shipping-method-block/block.json:1
+msgctxt "block title"
+msgid "Delivery"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-discount-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-discount-block/block.json:1
+msgctxt "block title"
+msgid "Discount"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-downloads-wrapper/block.json:1
+msgctxt "block title"
+msgid "Downloads Section"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/empty-cart-block/block.json:1
+msgctxt "block title"
+msgid "Empty Cart"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/empty-mini-cart-contents-block/block.json:1
+msgctxt "block title"
+msgid "Empty Mini-Cart view"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-express-payment-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-express-payment-block/block.json:1
+msgctxt "block title"
+msgid "Express Checkout"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/featured-category/block.json:1
+msgctxt "block title"
+msgid "Featured Category"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/featured-product/block.json:1
+msgctxt "block title"
+msgid "Featured Product"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-fee-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-fee-block/block.json:1
+msgctxt "block title"
+msgid "Fees"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/filled-cart-block/block.json:1
+msgctxt "block title"
+msgid "Filled Cart"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/filled-mini-cart-contents-block/block.json:1
+msgctxt "block title"
+msgid "Filled Mini-Cart view"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/filter-wrapper/block.json:1
+msgctxt "block title"
+msgid "Filter Block"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/attribute-filter/block.json:1
+msgctxt "block title"
+msgid "Filter by Attribute Controls"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/price-filter/block.json:1
+msgctxt "block title"
+msgid "Filter by Price Controls"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/rating-filter/block.json:1
+msgctxt "block title"
+msgid "Filter by Rating Controls"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/stock-filter/block.json:1
+msgctxt "block title"
+msgid "Filter by Stock Controls"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-grouped-product-selector/block.json:1
+msgctxt "block title"
+msgid "Grouped Product Selector (Beta)"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-grouped-product-item-label/block.json:1
+msgctxt "block title"
+msgid "Grouped Product: Item Label (Beta)"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-grouped-product-item-selector/block.json:1
+msgctxt "block title"
+msgid "Grouped Product: Item Selector (Beta)"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-grouped-product-item/block.json:1
+msgctxt "block title"
+msgid "Grouped Product: Template (Beta)"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/handpicked-products/block.json:1
+msgctxt "block title"
+msgid "Hand-picked Products"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-heading-block/block.json:1
+msgctxt "block title"
+msgid "Heading"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-gallery-large-image/block.json:1
+msgctxt "block title"
+msgid "Large Image"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/linked-product-list/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-linked-list-field/block.json:1
+msgctxt "block title"
+msgid "Linked product list"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-checkbox-list/block.json:1
+msgctxt "block title"
+msgid "List"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/mini-cart/block.json:1
+msgctxt "block title"
+msgid "Mini-Cart"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/mini-cart-contents/block.json:1
+msgctxt "block title"
+msgid "Mini-Cart Contents"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-footer-block/block.json:1
+msgctxt "block title"
+msgid "Mini-Cart Footer"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-items-block/block.json:1
+msgctxt "block title"
+msgid "Mini-Cart Items"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-checkout-button-block/block.json:1
+msgctxt "block title"
+msgid "Mini-Cart Proceed to Checkout Button"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-products-table-block/block.json:1
+msgctxt "block title"
+msgid "Mini-Cart Products Table"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-shopping-button-block/block.json:1
+msgctxt "block title"
+msgid "Mini-Cart Shopping Button"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-title-block/block.json:1
+msgctxt "block title"
+msgid "Mini-Cart Title"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-title-items-counter-block/block.json:1
+msgctxt "block title"
+msgid "Mini-Cart Title Items Counter"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-title-label-block/block.json:1
+msgctxt "block title"
+msgid "Mini-Cart Title Label"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/mini-cart-cart-button-block/block.json:1
+msgctxt "block title"
+msgid "Mini-Cart View Cart Button"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-new/block.json:1
+msgctxt "block title"
+msgid "Newest Products"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-gallery-large-image-next-previous/block.json:1
+msgctxt "block title"
+msgid "Next/Previous Buttons"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-collection-no-results/block.json:1
+msgctxt "block title"
+msgid "No results"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/notice-edit-single-variation/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/notice-has-variations/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-has-variations-notice/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-single-variation-notice/block.json:1
+msgctxt "block title"
+msgid "Notice"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-on-sale/block.json:1
+msgctxt "block title"
+msgid "On Sale Products"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-sale-badge/block.json:1
+msgctxt "block title"
+msgid "On-Sale Badge"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-downloads/block.json:1
+msgctxt "block title"
+msgid "Order Downloads"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-note-block/block.json:1
+msgctxt "block title"
+msgid "Order Note"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-status/block.json:1
+msgctxt "block title"
+msgid "Order Status"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-summary/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-block/block.json:1
+msgctxt "block title"
+msgid "Order Summary"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-totals/block.json:1
+msgctxt "block title"
+msgid "Order Totals"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-totals-wrapper/block.json:1
+msgctxt "block title"
+msgid "Order Totals Section"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/payment-method-icons/block.json:1
+msgctxt "block title"
+msgid "Payment Method Icons"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-payment-block/block.json:1
+msgctxt "block title"
+msgid "Payment Options"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-pickup-options-block/block.json:1
+msgctxt "block title"
+msgid "Pickup Method"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-price/block.json:1
+msgctxt "block title"
+msgid "Price"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-price-slider/block.json:1
+msgctxt "block title"
+msgid "Price Slider"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/proceed-to-checkout-block/block.json:1
+msgctxt "block title"
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/single-product/block.json:1
+msgctxt "block title"
+msgid "Product"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/attributes/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-attributes-field/block.json:1
+msgctxt "block title"
+msgid "Product attributes"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-average-rating/block.json:1
+msgctxt "block title"
+msgid "Product Average Rating (Beta)"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/catalog-visibility/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-catalog-visibility-field/block.json:1
+msgctxt "block title"
+msgid "Product catalog visibility"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-categories/block.json:1
+msgctxt "block title"
+msgid "Product Categories List"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/checkbox/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-checkbox-field/block.json:1
+msgctxt "block title"
+msgid "Product checkbox control"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-collection/block.json:1
+msgctxt "block title"
+msgid "Product Collection"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/custom-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-custom-fields/block.json:1
+msgctxt "block title"
+msgid "Product custom fields control"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/custom-fields-toggle/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-custom-fields-toggle-field/block.json:1
+msgctxt "block title"
+msgid "Product custom fields toggle control"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-description/block.json:1
+msgctxt "block title"
+msgid "Product Description"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-description-field/block.json:1
+msgctxt "block title"
+msgid "Product description"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-details/block.json:1
+msgctxt "block title"
+msgid "Product Details"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-details-section-description/block.json:1
+msgctxt "block title"
+msgid "Product details section description"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/downloads/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-downloads-field/block.json:1
+msgctxt "block title"
+msgid "Product downloads"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filters/block.json:1
+msgctxt "block title"
+msgid "Product Filters"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-gallery/block.json:1
+msgctxt "block title"
+msgid "Product Gallery (Beta)"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-image/block.json:1
+msgctxt "block title"
+msgid "Product Image"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-image-gallery/block.json:1
+msgctxt "block title"
+msgid "Product Image Gallery"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/images/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-images-field/block.json:1
+msgctxt "block title"
+msgid "Product images"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-quantity/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-inventory-quantity-field/block.json:1
+msgctxt "block title"
+msgid "Product inventory quantity available"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-list/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-list-field/block.json:1
+msgctxt "block title"
+msgid "Product list"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-meta/block.json:1
+msgctxt "block title"
+msgid "Product Meta"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/name/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-name-field/block.json:1
+msgctxt "block title"
+msgid "Product name"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/notice/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-notice-field/block.json:1
+msgctxt "block title"
+msgid "Product notice field"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/number/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-number-field/block.json:1
+msgctxt "block title"
+msgid "Product number control"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/password/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-password-field/block.json:1
+msgctxt "block title"
+msgid "Product password"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-price/block.json:1
+msgctxt "block title"
+msgid "Product Price"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/pricing/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-pricing-field/block.json:1
+msgctxt "block title"
+msgid "Product pricing"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-quantity-selector/block.json:1
+msgctxt "block title"
+msgid "Product Quantity (Beta)"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-radio-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/radio/block.json:1
+msgctxt "block title"
+msgid "Product radio control"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-rating/block.json:1
+msgctxt "block title"
+msgid "Product Rating"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-rating-counter/block.json:1
+msgctxt "block title"
+msgid "Product Rating Counter"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-rating-stars/block.json:1
+msgctxt "block title"
+msgid "Product Rating Stars"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-regular-price-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/regular-price/block.json:1
+msgctxt "block title"
+msgid "Product regular price"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-results-count/block.json:1
+msgctxt "block title"
+msgid "Product Results Count"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-reviews/block.json:1
+msgctxt "block title"
+msgid "Product Reviews"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-sale-price-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/sale-price/block.json:1
+msgctxt "block title"
+msgid "Product sale price"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-schedule-sale-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/schedule-sale/block.json:1
+msgctxt "block title"
+msgid "Product schedule sale fields"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-section/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/section/block.json:1
+msgctxt "block title"
+msgid "Product section"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-section-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/section-description/block.json:1
+msgctxt "block title"
+msgid "Product section description"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-select-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/select/block.json:1
+msgctxt "block title"
+msgid "Product select field"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-shipping-class-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/shipping-class/block.json:1
+msgctxt "block title"
+msgid "Product shipping class field"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-shipping-dimensions-fields/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/shipping-dimensions/block.json:1
+msgctxt "block title"
+msgid "Product shipping dimensions fields"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-sku/block.json:1
+msgctxt "block title"
+msgid "Product SKU"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-specifications/block.json:1
+msgctxt "block title"
+msgid "Product Specifications"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-stock-indicator/block.json:1
+msgctxt "block title"
+msgid "Product Stock Indicator"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-subsection/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/subsection/block.json:1
+msgctxt "block title"
+msgid "Product subsection"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-subsection-description/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/subsection-description/block.json:1
+msgctxt "block title"
+msgid "Product subsection description"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-summary/block.json:1
+msgctxt "block title"
+msgid "Product Summary"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-summary-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/summary/block.json:1
+msgctxt "block title"
+msgid "Product summary"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-tab/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/tab/block.json:1
+msgctxt "block title"
+msgid "Product tab"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-tag-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/tag/block.json:1
+msgctxt "block title"
+msgid "Product Tag"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-template/block.json:1
+msgctxt "block title"
+msgid "Product Template"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-sku/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-sku-field/block.json:1
+msgctxt "block title"
+msgid "Product text control"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-text-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/text/block.json:1
+msgctxt "block title"
+msgid "Product text field"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-text-area-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/text-area/block.json:1
+msgctxt "block title"
+msgid "Product textarea block"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-title/block.json:1
+msgctxt "block title"
+msgid "Product Title"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-toggle-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/toggle/block.json:1
+msgctxt "block title"
+msgid "Product toggle control"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-variation-items-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/variation-items/block.json:1
+msgctxt "block title"
+msgid "Product variations items"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-variations-options-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/variation-options/block.json:1
+msgctxt "block title"
+msgid "Product variations options"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/products-by-attribute/block.json:1
+msgctxt "block title"
+msgid "Products by Attribute"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-category/block.json:1
+msgctxt "block title"
+msgid "Products by Category"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-tag/block.json:1
+msgctxt "block title"
+msgid "Products by Tag"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-rating/block.json:1
+msgctxt "block title"
+msgid "Rating"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/related-products/block.json:1
+msgctxt "block title"
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-review-author-name/block.json:1
+msgctxt "block title"
+msgid "Review Author Name"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-review-content/block.json:1
+msgctxt "block title"
+msgid "Review Content"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-review-date/block.json:1
+msgctxt "block title"
+msgid "Review Date"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-review-rating/block.json:1
+msgctxt "block title"
+msgid "Review Rating"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/reviews-by-category/block.json:1
+msgctxt "block title"
+msgid "Reviews by Category"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/reviews-by-product/block.json:1
+msgctxt "block title"
+msgid "Reviews by Product"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-review-form/block.json:1
+msgctxt "block title"
+msgid "Reviews Form"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-reviews-pagination-next/block.json:1
+msgctxt "block title"
+msgid "Reviews Next Page"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-reviews-pagination-numbers/block.json:1
+msgctxt "block title"
+msgid "Reviews Page Numbers"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-reviews-pagination/block.json:1
+msgctxt "block title"
+msgid "Reviews Pagination"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-reviews-pagination-previous/block.json:1
+msgctxt "block title"
+msgid "Reviews Previous Page"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-review-template/block.json:1
+msgctxt "block title"
+msgid "Reviews Template"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-reviews-title/block.json:1
+msgctxt "block title"
+msgid "Reviews Title"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-shipping-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-shipping-block/block.json:1
+msgctxt "block title"
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-shipping-address/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-shipping-address-block/block.json:1
+msgctxt "block title"
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/order-confirmation-shipping-wrapper/block.json:1
+msgctxt "block title"
+msgid "Shipping Address Section"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-shipping-methods-block/block.json:1
+msgctxt "block title"
+msgid "Shipping Options"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/inventory-email/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/product-fields/product-inventory-email-field/block.json:1
+msgctxt "block title"
+msgid "Stock level threshold"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/breadcrumbs/block.json:1
+msgctxt "block title"
+msgid "Store Breadcrumbs"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/store-notices/block.json:1
+msgctxt "block title"
+msgid "Store Notices"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-subtotal-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-subtotal-block/block.json:1
+msgctxt "block title"
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-taxes-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-taxes-block/block.json:1
+msgctxt "block title"
+msgid "Taxes"
+msgstr ""
+
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/product-taxonomy-field/block.json:1
+#: woocommerce/assets/client/admin/product-editor/blocks/generic/taxonomy/block.json:1
+msgctxt "block title"
+msgid "Taxonomy"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-filter-taxonomy/block.json:1
+msgctxt "block title"
+msgid "Taxonomy Filter"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-terms-block/block.json:1
+msgctxt "block title"
+msgid "Terms and Conditions"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-gallery-thumbnails/block.json:1
+msgctxt "block title"
+msgid "Thumbnails"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/product-top-rated/block.json:1
+msgctxt "block title"
+msgid "Top Rated Products"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/inner-blocks/cart-order-summary-totals-block/block.json:1
+#: woocommerce/assets/client/blocks/inner-blocks/checkout-order-summary-totals-block/block.json:1
+msgctxt "block title"
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-variation-selector/block.json:1
+msgctxt "block title"
+msgid "Variation Selector (Beta)"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-variation-selector-attribute-name/block.json:1
+msgctxt "block title"
+msgid "Variation Selector: Attribute Name (Beta)"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-variation-selector-attribute-options/block.json:1
+msgctxt "block title"
+msgid "Variation Selector: Attribute Options (Beta)"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/add-to-cart-with-options-variation-selector-attribute/block.json:1
+msgctxt "block title"
+msgid "Variation Selector: Template (Beta)"
+msgstr ""
+
+#: woocommerce/assets/client/blocks/page-content-wrapper/block.json:1
+msgctxt "block title"
+msgid "WooCommerce Page"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Arial"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Arvo"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Comic Sans MS"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Courier New"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Georgia"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Lato"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Lora"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Lucida"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Merriweather"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Merriweather Sans"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Noticia Text"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Open Sans"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Oswald"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Pacifico"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Permanent Marker"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Playfair Display"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Raleway"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Roboto"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Source Sans Pro"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Tahoma"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Times New Roman"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Trebuchet MS"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font family name"
+msgid "Verdana"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font size name"
+msgid "extra-large"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font size name"
+msgid "large"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font size name"
+msgid "medium"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Font size name"
+msgid "small"
+msgstr ""
+
+#. Name of the template
+#: template-fullwidth.php:2
+msgid "Full width"
+msgstr ""
+
+#. Author of the theme
+msgid "Panos"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Space size name"
+msgid "1"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Space size name"
+msgid "2"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Space size name"
+msgid "3"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Space size name"
+msgid "4"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Space size name"
+msgid "5"
+msgstr ""
+
+#: woocommerce/packages/email-editor/src/Engine/theme.json:1
+msgctxt "Space size name"
+msgid "6"
+msgstr ""
+
+#. Name of the theme
+msgid "Storefront Child"
+msgstr ""

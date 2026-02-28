@@ -1,0 +1,93 @@
+/* =========================================
+   Larissa Verification UI – styling + layout fixes
+   Works on Register + My Account Documents endpoint
+   ========================================= */
+
+/* Container styling */
+.woocommerce form.register fieldset.larissa-verify,
+.woocommerce-account .larissa-documents-form {
+  background: rgba(255,255,255,.92);
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 14px;
+  padding: 18px 18px 8px;
+  margin: 18px 0 22px;
+}
+
+/* Title */
+.woocommerce form.register fieldset.larissa-verify legend {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0 0 10px;
+  padding: 0 6px;
+}
+
+/* Make sure rows don't “snake” around floats */
+.woocommerce form.register fieldset.larissa-verify::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Base spacing */
+.woocommerce form.register fieldset.larissa-verify .form-row {
+  margin: 0 0 14px;
+}
+
+/* Ensure "wide" rows actually clear */
+.woocommerce form.register fieldset.larissa-verify .form-row-wide {
+  clear: both;
+}
+
+/* Fix your footer note wrapping between DL front/back */
+.woocommerce form.register fieldset.larissa-verify .form-row:last-child {
+  clear: both;
+  width: 100%;
+}
+
+/* Two-column DL fields (Woo uses floats here) */
+.woocommerce form.register fieldset.larissa-verify .form-row-first,
+.woocommerce form.register fieldset.larissa-verify .form-row-last {
+  width: 48%;
+}
+
+@media (max-width: 768px) {
+  .woocommerce form.register fieldset.larissa-verify .form-row-first,
+  .woocommerce form.register fieldset.larissa-verify .form-row-last {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+}
+
+/* Labels */
+.woocommerce form.register fieldset.larissa-verify label,
+.woocommerce-account .larissa-documents-form label {
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+/* File input styling (limited by browser, but we can improve the box) */
+.woocommerce form.register fieldset.larissa-verify input[type="file"],
+.woocommerce-account .larissa-documents-form input[type="file"] {
+  width: 100%;
+  max-width: 520px;
+  padding: 10px;
+  border: 1px dashed rgba(0,0,0,.25);
+  border-radius: 12px;
+  background: rgba(248,250,252,.8);
+  outline: none;
+}
+
+/* Small helper text */
+.woocommerce form.register fieldset.larissa-verify small,
+.woocommerce-account .larissa-documents-form p[style*="opacity"] {
+  display: block;
+  margin-top: 6px;
+  line-height: 1.35;
+}
+
+/* Optional: tighten the status list on Documents endpoint */
+.woocommerce-account ul[style*="margin:12px"] {
+  padding-left: 16px;
+}

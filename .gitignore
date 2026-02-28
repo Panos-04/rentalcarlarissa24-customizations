@@ -1,0 +1,87 @@
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+debug.log
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Secrets / env / keys
+# =========================
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.crt
+
+# =========================
+# WordPress sensitive files
+# =========================
+wp-config.php
+wp-config-local.php
+
+# =========================
+# Databases / exports
+# =========================
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.csv
+
+# =========================
+# Backups / migration archives
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.wpress
+backup-*
+ai1wm-backups/
+updraft/
+backups/
+
+# =========================
+# Uploads / media / cache
+# (avoid accidentally uploading client/user data)
+# =========================
+uploads/
+wp-content/uploads/
+cache/
+wp-content/cache/
+wp-content/uploads/cache/
+
+# =========================
+# Node / build artifacts (if any local tooling exists)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# Composer / vendor (optional)
+# Keep commented if you intentionally want vendor files
+# =========================
+# vendor/
+
+# =========================
+# System / misc
+# =========================
+*.bak
+*.old
+*.swp
+*.swo

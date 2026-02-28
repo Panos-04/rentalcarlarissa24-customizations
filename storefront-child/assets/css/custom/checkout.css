@@ -1,0 +1,245 @@
+/* =========================================================
+   RC24 Checkout UI (Storefront + WooCommerce)
+   ========================================================= */
+
+/* Optional: reduce harsh white-on-background feeling */
+.woocommerce-checkout,
+.woocommerce-checkout #primary,
+.woocommerce-checkout #main {
+    color: rgba(0, 0, 0, .9);
+}
+
+/* Main checkout container spacing */
+.woocommerce-checkout .site-main {
+    padding-top: 18px;
+}
+
+/* Notices (coupon bar, errors, verification rejected, etc.) */
+.woocommerce-checkout .woocommerce-notices-wrapper {
+    margin: 14px auto 18px;
+    max-width: 1120px;
+    padding: 0 16px;
+}
+
+.woocommerce-checkout .woocommerce-error,
+.woocommerce-checkout .woocommerce-message,
+.woocommerce-checkout .woocommerce-info {
+    border-radius: 14px;
+    padding: 14px 16px;
+    border: 1px solid rgba(255, 255, 255, .12);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .18);
+}
+
+/* Make the blue info bar less “default WC” */
+.woocommerce-checkout .woocommerce-info {
+    background: rgba(20, 20, 20, 0.55);
+    color: rgba(255, 255, 255, .92);
+}
+
+.woocommerce-checkout .woocommerce-info a {
+    color: rgba(255, 255, 255, .95);
+    text-decoration: underline;
+}
+
+/* Error bar */
+.woocommerce-checkout .woocommerce-error {
+    background: rgba(185, 28, 28, 0.20);
+    color: rgba(0, 0, 0, .90);
+    border-color: rgba(185, 28, 28, 0.35);
+}
+
+/* Message bar */
+.woocommerce-checkout .woocommerce-message {
+    background: rgba(16, 185, 129, 0.12);
+    color: rgba(0, 0, 0, .90);
+    border-color: rgba(16, 185, 129, 0.25);
+}
+
+/* Two-column layout: keep it clean and card-like */
+.woocommerce-checkout form.checkout {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 16px 28px;
+}
+
+/* Left: Billing / Shipping card */
+.woocommerce-checkout .col2-set .col-1,
+.woocommerce-checkout .col2-set .col-2 {
+    background: rgba(20, 20, 20, .35);
+    border: 1px solid rgba(255, 255, 255, .10);
+    border-radius: 18px;
+    padding: 18px 18px 8px;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+}
+
+/* Right: Order review card */
+.woocommerce-checkout #order_review,
+.woocommerce-checkout #order_review_heading {
+    background: rgba(255, 255, 255, .92);
+    border-radius: 18px;
+}
+
+.woocommerce-checkout #order_review_heading {
+    margin-top: 0;
+    padding: 16px 18px 0;
+    border: 0;
+}
+
+.woocommerce-checkout #order_review {
+    padding: 16px 18px 18px;
+    border: 1px solid rgba(0, 0, 0, .08);
+    box-shadow: 0 14px 40px rgba(0, 0, 0, .18);
+}
+
+/* Headings */
+.woocommerce-checkout h3,
+.woocommerce-checkout #order_review_heading {
+    font-weight: 800;
+    letter-spacing: .2px;
+}
+
+/* Labels + required */
+.woocommerce-checkout form .form-row label {
+    font-weight: 700;
+    color: rgba(0, 0, 0, .90);
+}
+
+.woocommerce-checkout form .required {
+    color: #b91c1c;
+}
+
+/* Inputs */
+.woocommerce-checkout input[type="text"],
+.woocommerce-checkout input[type="email"],
+.woocommerce-checkout input[type="tel"],
+.woocommerce-checkout input[type="password"],
+.woocommerce-checkout select,
+.woocommerce-checkout textarea {
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, .14);
+    background: rgba(255, 255, 255, .96);
+    padding: 12px 12px;
+    min-height: 44px;
+    box-shadow: none;
+}
+
+.woocommerce-checkout input:focus,
+.woocommerce-checkout select:focus,
+.woocommerce-checkout textarea:focus {
+    outline: none;
+    border-color: rgba(185, 28, 28, .55);
+    box-shadow: 0 0 0 4px rgba(185, 28, 28, .12);
+}
+
+/* Order table cleanup */
+.woocommerce-checkout table.shop_table {
+    border: 0;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.woocommerce-checkout table.shop_table th,
+.woocommerce-checkout table.shop_table td {
+    border: 0;
+    background: transparent;
+}
+
+.woocommerce-checkout table.shop_table tr.cart_item td,
+.woocommerce-checkout table.shop_table tr.cart_item th {
+    padding: 10px 8px;
+}
+
+.woocommerce-checkout table.shop_table tfoot td,
+.woocommerce-checkout table.shop_table tfoot th {
+    padding: 10px 8px;
+}
+
+/* Coupon row inside order review (if present) */
+.woocommerce-checkout .woocommerce-remove-coupon {
+    text-decoration: underline;
+}
+
+/* Payment box */
+.woocommerce-checkout #payment {
+    background: rgba(255, 255, 255, .92);
+    border-radius: 18px;
+    padding: 16px 18px;
+    border: 1px solid rgba(0, 0, 0, .08);
+}
+
+.woocommerce-checkout #payment ul.payment_methods {
+    border: 0;
+    padding-left: 0;
+}
+
+.woocommerce-checkout #payment .payment_box {
+    background: rgba(20, 20, 20, .06);
+    border-radius: 14px;
+    padding: 12px 12px;
+}
+
+/* Primary button (Place order) */
+.woocommerce-checkout #place_order,
+.woocommerce-checkout button.button,
+.woocommerce-checkout a.button {
+    border-radius: 14px;
+    padding: 12px 16px;
+    font-weight: 800;
+    border: 0;
+    background: #b91c1c;
+    color: #fff;
+    box-shadow: 0 14px 34px rgba(0, 0, 0, .22);
+}
+
+.woocommerce-checkout #place_order:hover {
+    filter: brightness(1.03);
+}
+
+.woocommerce-checkout #place_order:active {
+    transform: translateY(1px);
+}
+
+/* Make the “coupon toggle” link look nicer */
+.woocommerce-checkout .showcoupon {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+/* Responsive: stack cleanly */
+@media (max-width: 980px) {
+
+    .woocommerce-checkout .col2-set .col-1,
+    .woocommerce-checkout .col2-set .col-2 {
+        margin-bottom: 16px;
+    }
+
+    .woocommerce-checkout #order_review,
+    .woocommerce-checkout #payment {
+        margin-top: 16px;
+    }
+}
+
+/* Coupon form inside order review */
+.woocommerce-checkout-review-order .woocommerce-form-coupon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 0;
+}
+
+.woocommerce-checkout-review-order .woocommerce-form-coupon p {
+    margin: 0;
+}
+
+.woocommerce-checkout-review-order .woocommerce-form-coupon input.input-text {
+    height: 44px;
+    border-radius: 10px;
+}
+
+.woocommerce-checkout-review-order .woocommerce-form-coupon button.button {
+    height: 44px;
+    border-radius: 10px;
+}

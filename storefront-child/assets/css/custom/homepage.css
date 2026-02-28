@@ -1,0 +1,1391 @@
+/* =========================
+   RCL24 Redesigned Homepage
+   ========================= */
+
+:root {
+    --rcl-red: #d41010;
+    --rcl-red2: #ff2a2a;
+    --glass: rgba(255, 255, 255, 0.10);
+    --glass2: rgba(255, 255, 255, 0.08);
+    --border: rgba(255, 255, 255, 0.18);
+    --text: rgba(255, 255, 255, 0.92);
+    --muted: rgba(255, 255, 255, 0.72);
+    --shadow: 0 14px 34px rgba(0, 0, 0, 0.26);
+    --radius: 18px;
+}
+
+.rcl24-container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 18px;
+}
+
+/* Promo bar */
+.rcl24-promo {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: linear-gradient(90deg, rgba(212, 16, 16, .95), rgba(255, 42, 42, .85));
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.20);
+}
+
+.rcl24-promo-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    gap: 12px;
+}
+
+.rcl24-promo-left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.rcl24-dot {
+    opacity: .85;
+}
+
+.rcl24-promo-right a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 8px 12px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.rcl24-promo-right a:hover {
+    filter: brightness(1.08);
+}
+
+/* Hero */
+.rcl24-hero {
+    position: relative;
+    min-height: 72vh;
+    display: flex;
+    align-items: center;
+    padding: 56px 0 44px;
+    background:
+        radial-gradient(900px 300px at 20% 10%, rgba(255, 42, 42, 0.18), transparent 55%),
+        radial-gradient(900px 300px at 80% 0%, rgba(212, 16, 16, 0.18), transparent 55%),
+        var(--hero) center/cover no-repeat;
+}
+
+.rcl24-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.65));
+}
+
+.rcl24-hero-grid {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: 18px;
+    align-items: start;
+}
+
+.rcl24-hero-copy {
+    background: var(--glass);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow);
+}
+
+.rcl24-hero-copy h1 {
+    margin: 0 0 10px;
+    color: var(--text);
+    font-size: clamp(26px, 3vw, 42px);
+    letter-spacing: .2px;
+}
+
+.rcl24-hero-copy p {
+    margin: 0 0 16px;
+    color: var(--muted);
+    line-height: 1.6;
+    font-size: 15.5px;
+}
+
+.rcl24-hero-cta {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+}
+
+.rcl24-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    padding: 0 16px;
+    border-radius: 14px;
+    font-weight: 800;
+    letter-spacing: .3px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.rcl24-btn-primary {
+    color: #fff;
+    background: linear-gradient(135deg, var(--rcl-red), var(--rcl-red2));
+    border: 0;
+    box-shadow: 0 12px 22px rgba(212, 16, 16, 0.26);
+}
+
+.rcl24-btn-primary:hover {
+    filter: brightness(1.06);
+    transform: translateY(-1px);
+}
+
+.rcl24-btn-ghost {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.18);
+}
+
+.rcl24-btn-ghost:hover {
+    border-color: rgba(255, 255, 255, 0.34);
+}
+
+.rcl24-trust-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.rcl24-pill {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.22);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 13.5px;
+}
+
+.rcl24-pill i {
+    color: #fff;
+    opacity: .9;
+}
+
+/* Hero card (search) */
+.rcl24-hero-card {
+    background: var(--glass2);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: var(--radius);
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow);
+}
+
+.rcl24-hero-card-top {
+    padding: 18px 18px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.rcl24-hero-card-top h3 {
+    margin: 0 0 6px;
+    color: var(--text);
+    font-size: 18px;
+}
+
+.rcl24-hero-card-top p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.rcl24-hero-card-body {
+    padding: 14px 18px 18px;
+}
+
+.rcl24-hero-card-bottom {
+    padding: 12px 18px 16px;
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 13px;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+/* Sections */
+.rcl24-section {
+    padding: 70px 0;
+}
+
+.rcl24-muted-bg {
+    background: rgba(0, 0, 0, 0.26);
+}
+
+.rcl24-section-head {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.rcl24-section-head h2 {
+    margin: 0 0 8px;
+    color: var(--text);
+    font-size: clamp(22px, 2.4vw, 34px);
+}
+
+.rcl24-section-head p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 15px;
+}
+
+/* Cards */
+.rcl24-cards-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 18px;
+}
+
+.rcl24-card {
+    padding: 18px 18px 16px;
+    border-radius: var(--radius);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.20);
+    transition: transform .18s ease, border-color .18s ease;
+}
+
+.rcl24-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(255, 255, 255, 0.30);
+}
+
+.rcl24-card-light {
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.rcl24-card-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 12px;
+    background: linear-gradient(135deg, rgba(212, 16, 16, 0.95), rgba(255, 42, 42, 0.75));
+    box-shadow: 0 10px 18px rgba(212, 16, 16, 0.22);
+}
+
+.rcl24-card-icon i {
+    color: #fff;
+    font-size: 18px;
+}
+
+.rcl24-card h3 {
+    margin: 0 0 6px;
+    color: var(--text);
+    font-size: 17px;
+}
+
+.rcl24-card p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14.5px;
+    line-height: 1.45;
+}
+
+/* Split panels */
+.rcl24-split {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: 1fr 2.1fr;
+    gap: 16px;
+}
+
+.rcl24-panel- {
+    border-radius: var(--radius);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.20);
+}
+
+.rcl24-accent {
+    border: 1px solid rgba(255, 42, 42, 0.30);
+    background:
+        radial-gradient(900px 260px at 10% 0%, rgba(255, 42, 42, 0.20), transparent 55%),
+        rgba(255, 255, 255, 0.07);
+
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: center;
+}
+
+.rcl24-panel- h3 {
+    margin: 0 0 10px;
+    color: var(--text);
+    font-size: 18px;
+}
+
+.rcl24-panel- p {
+    margin: 0 0 10px;
+    color: var(--muted);
+    font-size: 14.8px;
+    line-height: 1.55;
+}
+
+.rcl24-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: grid;
+    gap: 8px;
+}
+
+.rcl24-list li {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 14.5px;
+}
+
+.rcl24-list i {
+    margin-top: 3px;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+/* Steps */
+.rcl24-steps {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.rcl24-step {
+    padding: 18px;
+    border-radius: var(--radius);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.20);
+}
+
+.rcl24-step-num {
+    width: 38px;
+    height: 38px;
+    border-radius: 14px;
+    display: grid;
+    place-items: center;
+    font-weight: 900;
+    color: #fff;
+    background: linear-gradient(135deg, var(--rcl-red), var(--rcl-red2));
+    margin-bottom: 10px;
+}
+
+.rcl24-step h3 {
+    margin: 0 0 6px;
+    color: var(--text);
+    font-size: 17px;
+}
+
+.rcl24-step p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14.5px;
+    line-height: 1.45;
+}
+
+/* Subscribe form */
+.rcl24-subscribe {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.rcl24-subscribe input[type="email"] {
+    height: 44px;
+    padding: 0 14px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(0, 0, 0, 0.20);
+    color: #fff;
+    outline: none;
+}
+
+.rcl24-subscribe input::placeholder {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.rcl24-subscribe button {
+    height: 44px;
+    padding: 0 16px;
+    border: 0;
+    border-radius: 14px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+    background: linear-gradient(135deg, var(--rcl-red), var(--rcl-red2));
+    box-shadow: 0 12px 22px rgba(212, 16, 16, 0.28);
+}
+
+.rcl24-subscribe button:hover {
+    transform: translateY(-1px);
+    filter: brightness(1.05);
+}
+
+.rcl24-note {
+    margin-top: 12px;
+    font-size: 13.5px;
+    color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.rcl24-note i {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* FAQ */
+.rcl24-faq {
+    margin-top: 18px;
+    display: grid;
+    gap: 10px;
+}
+
+.rcl24-faq-item {
+    border-radius: var(--radius);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.20);
+    padding: 14px 16px;
+}
+
+.rcl24-faq-item summary {
+    cursor: pointer;
+    color: var(--text);
+    font-weight: 800;
+    list-style: none;
+}
+
+.rcl24-faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.rcl24-faq-body {
+    margin-top: 10px;
+    color: var(--muted);
+    font-size: 14.5px;
+    line-height: 1.55;
+}
+
+/* Contact section */
+.rcl24-contact {
+    background: rgba(0, 0, 0, 0.22);
+}
+
+/* Responsive */
+@media (max-width: 980px) {
+    .rcl24-hero-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .rcl24-cards-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .rcl24-split {
+        grid-template-columns: 1fr;
+    }
+
+    .rcl24-steps {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 520px) {
+    .rcl24-subscribe {
+        grid-template-columns: 1fr;
+    }
+
+    .rcl24-subscribe button {
+        width: 100%;
+    }
+
+    .rcl24-promo-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+.rs6-viewer-pro {
+    position: relative;
+    width: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, .25);
+    border: 1px solid rgba(255, 255, 255, .16);
+    box-shadow: 0 18px 44px rgba(0, 0, 0, .35);
+    backdrop-filter: blur(10px);
+}
+
+/* wider = feels “zoomed out” */
+.rs6-wide {
+    aspect-ratio: 16 / 10;
+}
+
+/* iframe fills container */
+.rs6-viewer-pro .rs6-sketchfab {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+}
+
+/* Adds a subtle blend so the viewer looks integrated even if it has some light areas */
+.rs6-viewer-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+        radial-gradient(800px 260px at 30% 10%, rgba(255, 42, 42, 0.14), transparent 60%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.55));
+    mix-blend-mode: multiply;
+    opacity: .9;
+}
+
+/* Small label like a premium badge */
+.rs6-viewer-label {
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-size: 12.5px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, .92);
+    background: rgba(0, 0, 0, .35);
+    border: 1px solid rgba(255, 255, 255, .18);
+    backdrop-filter: blur(10px);
+}
+
+/* =========================================================
+   RC24 x Inspect filter – Larissa glass style
+   Scope: only inside .rcl24-hero-card-body
+   ========================================================= */
+
+.rcl24-hero-card-body .inspect-home-search-wrapper,
+.rcl24-hero-card-body .inspect-vertical-search-wrapper {
+    border-radius: 22px;
+    background: rgba(40, 40, 40, 0.55);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    box-shadow: 0 18px 50px rgba(0, 0, 0, .35);
+    overflow: hidden;
+}
+
+/* Header */
+.rcl24-hero-card-body .inspect-vertical-search-wrapper .search-header {
+    padding: 22px 22px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.rcl24-hero-card-body .inspect-vertical-search-wrapper .search-header h3 {
+    margin: 0;
+    color: rgba(255, 255, 255, .92);
+    font-size: 22px;
+    line-height: 1.1;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.rcl24-hero-card-body .inspect-vertical-search-wrapper .search-header p {
+    margin: 6px 0 0;
+    color: rgba(255, 255, 255, .60);
+    font-size: 13px;
+}
+
+/* Body */
+.rcl24-hero-card-body .inspect-vertical-search-wrapper .header-body {
+    padding: 18px 22px 22px;
+}
+
+/* Widget titles */
+.rcl24-hero-card-body .inspect-filter-widget-title,
+.rcl24-hero-card-body .inspect-filter-widget h2.inspect-filter-widget-title {
+    margin: 0 0 10px;
+    color: rgba(255, 255, 255, .70);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-weight: 700;
+}
+
+/* Inputs */
+.rcl24-hero-card-body input[type="text"].daterange,
+.rcl24-hero-card-body input[type="text"],
+.rcl24-hero-card-body select,
+.rcl24-hero-card-body .select2-container .select2-selection--single {
+    height: 46px !important;
+    border-radius: 14px !important;
+    background: rgba(0, 0, 0, .32) !important;
+    color: rgba(255, 255, 255, .90) !important;
+    border: 1px solid rgba(255, 255, 255, .12) !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .06);
+}
+
+/* Placeholder text */
+.rcl24-hero-card-body input::placeholder {
+    color: rgba(255, 255, 255, .55);
+}
+
+/* Focus ring */
+.rcl24-hero-card-body input[type="text"]:focus,
+.rcl24-hero-card-body select:focus,
+.rcl24-hero-card-body .select2-container--default.select2-container--focus .select2-selection--single {
+    outline: none !important;
+    border-color: rgba(185, 28, 28, .75) !important;
+    box-shadow:
+        0 0 0 3px rgba(185, 28, 28, .25),
+        inset 0 1px 0 rgba(255, 255, 255, .06) !important;
+}
+
+/* Select2 arrow */
+.rcl24-hero-card-body .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 46px !important;
+    right: 10px !important;
+}
+
+.rcl24-hero-card-body .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 46px !important;
+    padding-left: 14px !important;
+    padding-right: 38px !important;
+    color: rgba(255, 255, 255, .90) !important;
+}
+
+/* Dropdown panel */
+.select2-container--default .select2-dropdown {
+    border-radius: 14px !important;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, .10) !important;
+    background: rgba(20, 20, 20, .98) !important;
+    box-shadow: 0 18px 50px rgba(0, 0, 0, .55);
+}
+
+.select2-container--default .select2-results__option {
+    padding: 10px 12px !important;
+    color: rgba(255, 255, 255, .85) !important;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background: rgba(185, 28, 28, .85) !important;
+    color: #fff !important;
+}
+
+/* Submit button */
+.rcl24-hero-card-body .inspect-home-search-footer .submit-search,
+.rcl24-hero-card-body input.submit-search[type="submit"] {
+    width: 100%;
+    height: 52px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, .10);
+    background: linear-gradient(180deg, rgba(185, 28, 28, .95), rgba(140, 16, 16, .95));
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    box-shadow: 0 14px 30px rgba(185, 28, 28, .25);
+    transition: transform .12s ease, filter .12s ease;
+}
+
+.rcl24-hero-card-body .inspect-home-search-footer .submit-search:hover {
+    filter: brightness(1.05);
+    transform: translateY(-1px);
+}
+
+/* Tighten spacing between widgets */
+.rcl24-hero-card-body .inspect-filter-widget {
+    margin-bottom: 16px;
+}
+
+/* Mobile tweaks */
+@media (max-width: 600px) {
+    .rcl24-hero-card-body .inspect-vertical-search-wrapper .search-header {
+        padding: 18px 16px 10px;
+    }
+
+    .rcl24-hero-card-body .inspect-vertical-search-wrapper .header-body {
+        padding: 0;
+    }
+}
+
+/* Optional: make all text in filter area slightly darker (your previous request style) */
+.rcl24-hero-card-body,
+.rcl24-hero-card-body * {
+    color: rgba(0, 0, 0, .90);
+}
+
+/* But keep the header readable on dark glass */
+.rcl24-hero-card-body .search-header h3,
+.rcl24-hero-card-body .search-header p,
+.rcl24-hero-card-body .inspect-filter-widget-title {
+    color: rgba(255, 255, 255, .85) !important;
+}
+
+/* Keep input text white */
+.rcl24-hero-card-body input,
+.rcl24-hero-card-body .select2-container .select2-selection__rendered {
+    color: rgba(255, 255, 255, .90) !important;
+}
+
+/* =========================
+   MOBILE FIX PACK
+   ========================= */
+@media (max-width: 600px) {
+
+    /* 1) Hide trust row/chips on mobile (clean bottom) */
+    .rcl24-trust-row {
+        display: none !important;
+    }
+
+    /* 2) Hero card spacing cleanup */
+    .rcl24-hero-card,
+    .rcl24-hero-left {
+        padding-bottom: 14px !important;
+    }
+
+    /* If paragraph is visually “cut” or too tight at bottom */
+    .rcl24-hero-left p,
+    .rcl24-hero-desc {
+        margin-bottom: 14px !important;
+        line-height: 1.5 !important;
+    }
+
+    /* 3) Buttons: align + consistent sizing */
+    .rcl24-hero-actions,
+    .rcl24-hero-buttons {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        /* two buttons side by side */
+        gap: 10px !important;
+        margin-top: 12px !important;
+    }
+
+    /* If you prefer stacked buttons instead, replace above with:
+       grid-template-columns: 1fr !important;
+    */
+
+    .rcl24-hero-actions .rcl24-btn,
+    .rcl24-hero-buttons .rcl24-btn,
+    .rcl24-hero-actions a,
+    .rcl24-hero-buttons a {
+        width: 100% !important;
+        justify-content: center !important;
+        padding: 14px 12px !important;
+        border-radius: 16px !important;
+    }
+
+    /* 4) Search card: reduce outer padding + make form fill width */
+    .rcl24-search-card,
+    .rcl24-search-wrap,
+    .rcl24-search-panel {
+        padding: 14px !important;
+        /* was too big */
+        border-radius: 18px !important;
+    }
+
+    /* Make the inner form container not look "tiny" */
+    .rcl24-search-card form,
+    .rcl24-search-wrap form,
+    .rcl24-search-panel form {
+        width: 100% !important;
+    }
+
+    /* 5) Inputs: bigger, clearer */
+    .rcl24-search-card input,
+    .rcl24-search-card select,
+    .rcl24-search-card .select2-selection,
+    .rcl24-search-card .woocommerce-input-wrapper input,
+    .rcl24-search-card .woocommerce-input-wrapper select {
+        height: 46px !important;
+        font-size: 15px !important;
+        border-radius: 12px !important;
+    }
+
+    /* If you're using Select2 (likely for locations) */
+    .rcl24-search-card .select2-container .select2-selection--single {
+        height: 46px !important;
+        display: flex !important;
+        align-items: center !important;
+        border-radius: 12px !important;
+    }
+
+    .rcl24-search-card .select2-container .select2-selection__rendered {
+        padding-left: 12px !important;
+        font-size: 15px !important;
+    }
+
+    .rcl24-search-card .select2-container .select2-selection__arrow {
+        height: 46px !important;
+        right: 10px !important;
+    }
+
+    /* 6) Tighten label spacing so the form feels less “tall” */
+    .rcl24-search-card label {
+        margin: 10px 0 6px !important;
+        font-size: 12px !important;
+        opacity: .85 !important;
+    }
+
+    /* 7) Search button: full width + premium */
+    .rcl24-search-card button,
+    .rcl24-search-card .button,
+    .rcl24-search-card input[type="submit"] {
+        width: 100% !important;
+        height: 50px !important;
+        border-radius: 16px !important;
+        font-weight: 900 !important;
+        letter-spacing: .5px !important;
+    }
+
+    /* 8) Optional: reduce huge title spacing inside search */
+    .rcl24-search-card h3,
+    .rcl24-search-card .rcl24-search-title {
+        margin-bottom: 10px !important;
+        font-size: 20px !important;
+    }
+
+    .inspect-obb-vertical-search-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    form.inspect-home-search-form {
+        width: 85%;
+    }
+}
+
+@media (max-width: 767px) {
+    .inspect-vertical-search-wrapper {
+        padding: 0;
+    }
+
+    .rcl24-hero-cta {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+
+    .rcl24-btn {
+        padding: 0;
+        width: max-content;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* The daterangepicker popup container */
+    .daterangepicker {
+        position: fixed !important;
+        left: 50% !important;
+        top: 50% !important;
+        transform: translate(-50%, -50%) !important;
+
+        width: calc(100vw - 24px) !important;
+        max-width: 420px !important;
+
+        margin: 0 !important;
+        z-index: 99999 !important;
+
+        border-radius: 16px !important;
+        overflow: hidden !important;
+    }
+
+    /* Remove the little triangle pointer */
+    .daterangepicker:before,
+    .daterangepicker:after {
+        display: none !important;
+    }
+
+    /* Make calendar fit */
+    .daterangepicker .drp-calendar {
+        float: none !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    /* If it tries to show two calendars, force single column */
+    .daterangepicker.show-calendar .drp-calendar.left,
+    .daterangepicker.show-calendar .drp-calendar.right {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    /* Tighten paddings for mobile */
+    .daterangepicker .calendar-table {
+        padding: 8px !important;
+    }
+
+    /* Buttons row */
+    .daterangepicker .drp-buttons {
+        display: flex !important;
+        justify-content: space-between !important;
+        gap: 10px !important;
+        padding: 10px 12px !important;
+    }
+
+    .daterangepicker .drp-buttons .btn {
+        flex: 1 !important;
+        height: 44px !important;
+        border-radius: 12px !important;
+        font-weight: 900 !important;
+    }
+
+    /* Prevent bottom text from wrapping weirdly */
+    .daterangepicker .drp-selected {
+        font-size: 12px !important;
+        line-height: 1.2 !important;
+        max-width: 55% !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        white-space: nowrap !important;
+    }
+}
+
+/* =========================
+   Mobile Quick Search Collapse
+   ========================= */
+@media (max-width: 600px) {
+
+    /* Make header look tappable */
+    #hero-card-top {
+        cursor: pointer;
+        user-select: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    /* Small caret indicator (optional) */
+    .rcl24-collapse-icon {
+        width: 34px;
+        height: 34px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, .14);
+        background: rgba(255, 255, 255, .06);
+        position: relative;
+        flex: 0 0 auto;
+    }
+
+    .rcl24-collapse-icon::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        width: 8px;
+        height: 8px;
+        border-right: 2px solid rgba(255, 255, 255, .85);
+        border-bottom: 2px solid rgba(255, 255, 255, .85);
+        transform: rotate(45deg);
+        top: 11px;
+    }
+
+    /* Closed by default (mobile) */
+    .rcl24-hero-card-body {
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transform: translateY(-6px);
+        transition:
+            max-height .28s ease,
+            opacity .20s ease,
+            transform .20s ease;
+        padding: 0;
+    }
+
+    /* Open state */
+    .rcl24-hero-card-body.is-open {
+        max-height: 1200px;
+        /* big enough for form */
+        opacity: 1;
+        transform: translateY(0);
+        padding: 14px 18px 18px;
+    }
+
+    /* Rotate caret when open */
+    .rcl24-hero-card-body.is-open+.rcl24-hero-card-bottom .rcl24-collapse-icon,
+    #hero-card-top.is-open .rcl24-collapse-icon {
+        transform: rotate(180deg);
+    }
+}
+
+/* =========================
+   Loyalty Block (clean)
+   ========================= */
+
+.rcl24-loyalty {
+    padding: 24px 0 40px;
+}
+
+.rcl24-loyalty-card {
+    margin: 0 auto;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, .14);
+
+    background:
+        radial-gradient(220px 120px at 96% 0%,
+            rgba(212, 16, 16, .18) 0%,
+            rgba(212, 16, 16, 0) 55%),
+        rgba(10, 10, 10, .50);
+
+    backdrop-filter: blur(14px);
+    box-shadow: 0 22px 70px rgba(0, 0, 0, .45);
+    padding: 22px 22px 16px;
+
+    width: 100%;
+}
+
+.rcl24-loyalty-head h3 {
+    margin: 0 0 8px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: .2px;
+}
+
+.rcl24-loyalty-head p {
+    margin: 0 0 14px;
+    color: rgba(255, 255, 255, .82);
+    line-height: 1.5;
+}
+
+.rcl24-loyalty-list {
+    margin: 0 0 16px;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 10px;
+}
+
+.rcl24-loyalty-list li {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    color: rgba(255, 255, 255, .85);
+}
+
+.rcl24-loyalty-list li::before {
+    content: "✓";
+    color: rgba(255, 255, 255, .9);
+    font-weight: 900;
+}
+
+.rcl24-loyalty-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 10px 0 14px;
+}
+
+.rcl24-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-weight: 900;
+    border: 1px solid rgba(255, 255, 255, .14);
+}
+
+.rcl24-btn--primary {
+    background: rgba(212, 16, 16, .95);
+    color: #fff;
+    border-color: rgba(255, 255, 255, .18);
+    box-shadow: 0 10px 26px rgba(212, 16, 16, .22);
+}
+
+.rcl24-btn--ghost {
+    background: rgba(255, 255, 255, .06);
+    color: rgba(255, 255, 255, .92);
+}
+
+.rcl24-loyalty-foot {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, .10);
+    color: rgba(255, 255, 255, .70);
+    font-size: 13px;
+}
+
+/* Logged-in coupon box */
+.rcl24-loyalty-couponbox {
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, .12);
+    background: rgba(255, 255, 255, .06);
+    padding: 14px;
+    display: grid;
+    gap: 8px;
+}
+
+.rcl24-loyalty-couponbox-title {
+    color: #fff;
+    font-weight: 900;
+}
+
+.rcl24-loyalty-couponbox-sub {
+    color: rgba(255, 255, 255, .78);
+    margin-bottom: 6px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .rcl24-loyalty-card {
+        padding: 18px 16px 14px;
+        border-radius: 18px;
+    }
+
+    .rcl24-loyalty-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .rcl24-btn-loyalty {
+        width: 100%;
+        padding: 14px 16px;
+        border-radius: 14px;
+    }
+}
+
+
+.rcl24-loyalty-grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    /* 40/60 feel */
+    gap: 18px;
+}
+
+
+/* LEFT LOYALTY: make it feel like a real card */
+.rcl24-loyalty-left {
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, .14);
+    background: rgba(10, 10, 10, .42);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 22px 70px rgba(0, 0, 0, .35);
+    padding: 18px 18px 14px;
+    position: relative;
+}
+
+/* Title */
+.rcl24-loyalty-left h3 {
+    margin: 0 0 12px;
+    color: rgba(255, 255, 255, .92);
+    font-weight: 900;
+    letter-spacing: .2px;
+}
+
+/* Steps row */
+.rcl24-steps {
+    display: flex;
+    gap: 12px;
+    margin: 0 0 14px;
+    flex-direction: column;
+}
+
+/* Step cards */
+.rcl24-step {
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, .12);
+    background: rgba(255, 255, 255, .05);
+    padding: 14px 12px 12px;
+    min-height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+
+/* subtle red corner glow so it matches the right side */
+.rcl24-step::before {
+    content: "";
+    position: absolute;
+    inset: -40px -40px auto auto;
+    width: 140px;
+    height: 140px;
+    background: radial-gradient(circle, rgba(212, 16, 16, .18) 0%, rgba(212, 16, 16, 0) 62%);
+    pointer-events: none;
+}
+
+/* Number badge (don’t rely on faint text) */
+.rcl24-step-num {
+    width: 30px;
+    height: 30px;
+    border-radius: 12px;
+    background: rgba(212, 16, 16, .92);
+    color: #fff;
+    font-weight: 900;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 22px rgba(212, 16, 16, .22);
+    flex: 0 0 auto;
+}
+
+/* Step text */
+.rcl24-step-text {
+    color: rgba(255, 255, 255, .88);
+    line-height: 1.35;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Perk row as chips */
+.rcl24-perk-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, .10);
+    justify-content: center;
+}
+
+.rcl24-perk {
+    padding: 8px 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .06);
+    border: 1px solid rgba(255, 255, 255, .12);
+    color: rgba(255, 255, 255, .82);
+    font-size: 13px;
+    font-weight: 900;
+}
+
+/* Mobile: stack steps */
+@media (max-width: 700px) {
+    .rcl24-steps {
+        grid-template-columns: 1fr;
+    }
+
+    .rcl24-step {
+        min-height: auto;
+    }
+}
+
+/* MOBILE HERO / LOYALTY ADJUSTMENTS */
+@media (max-width: 700px) {
+
+    /* If this section is a grid, force it into one column */
+    .rcl24-loyalty-grid,
+    .rcl24-loyalty-wrap,
+    .rcl24-loyalty-section .rcl24-container {
+        grid-template-columns: 1fr !important;
+    }
+
+    /* Give the whole section breathing room */
+    .rcl24-loyalty-section {
+        padding: 26px 14px !important;
+    }
+
+    /* Reward / right card: stop the "tube" feeling */
+    .rcl24-loyalty-right,
+    .rcl24-loyalty-reward,
+    .rcl24-reward-card {
+        width: 100% !important;
+        max-width: 520px;
+        margin: 0 auto !important;
+        padding: 18px 16px !important;
+        border-radius: 22px !important;
+    }
+
+    /* Title spacing */
+    .rcl24-loyalty-right h3,
+    .rcl24-loyalty-right h2,
+    .rcl24-reward-card h3 {
+        font-size: 18px !important;
+        line-height: 1.15 !important;
+        margin: 0 0 10px !important;
+    }
+
+    /* Sub text */
+    .rcl24-loyalty-right p,
+    .rcl24-reward-card p {
+        font-size: 13px !important;
+        line-height: 1.35 !important;
+        opacity: .9;
+        margin: 0 0 12px !important;
+    }
+
+    /* Inner "Your Coupons" glass box */
+    .rcl24-coupons-box,
+    .rcl24-coupons-wrap,
+    .rcl24-coupons {
+        padding: 14px !important;
+        border-radius: 18px !important;
+    }
+
+    /* Coupon cards: compact */
+    .rcl24-coupon-card {
+        padding: 12px !important;
+        margin: 10px 0 !important;
+        border-radius: 16px !important;
+    }
+
+    .rcl24-coupon-card strong {
+        font-size: 14px !important;
+        line-height: 1.25 !important;
+    }
+
+    .rcl24-coupon-card small {
+        font-size: 12px !important;
+        opacity: .9;
+    }
+
+    .rcl24-coupon-card code {
+        font-size: 13px !important;
+        padding: 5px 10px !important;
+        border-radius: 10px !important;
+    }
+
+    /* Optional: if the reward card gets long, contain it */
+    .rcl24-coupons-box,
+    .rcl24-coupons-wrap {
+        max-height: 520px;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* If you show the little bottom "saved to account" line */
+    .rcl24-loyalty-footnote,
+    .rcl24-reward-footnote {
+        font-size: 12px !important;
+        margin-top: 10px !important;
+        opacity: .85;
+    }
+}

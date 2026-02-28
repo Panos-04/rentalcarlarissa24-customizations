@@ -1,0 +1,3685 @@
+/*
+Theme Name: Storefront Child
+Template: storefront
+Author: Panos
+Version: 1.0
+Text Domain: larissa24
+Domain Path: /languages
+*/
+
+
+/* product-card style */
+
+ul.products li {
+    display: flex !important;
+    width: 40% !important;
+    min-width: 450px;
+    text-align: left !important;
+    margin: 0 !important;
+    gap: 3%;
+}
+
+ul.products.columns-3::before,
+ul.products.columns-3::after {
+    display: none;
+}
+
+ul.products li a {
+    width: 100% !important;
+
+}
+
+.site-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    background: #0d0d0d;
+    background: linear-gradient(1deg, rgb(246, 144, 144) 0%, rgb(232, 66, 66) 40%, rgb(95, 29, 29) 74%, rgb(150, 11, 11) 100%);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: space-around;
+    margin-top: 4%;
+    padding-bottom: 2%;
+}
+
+.site-header {
+    z-index: 50;
+}
+
+.car-info {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    font-weight: 700;
+    font-size: 28px;
+    justify-self: flex-start;
+    gap: 10px;
+}
+
+.car-type {
+    font-size: 21px;
+}
+
+
+.img-container {
+    display: flex;
+    width: 100%;
+    height: 55%;
+    align-self: center;
+    justify-content: center;
+    object-fit: contain;
+    background: #7813BB;
+    background: radial-gradient(circle, rgba(120, 19, 187, 0.7) 0%, rgba(255, 89, 89, 0.69) 55%, rgba(145, 48, 242, 0.05) 80%);
+}
+
+.img-container img {
+    display: flex;
+    align-self: center;
+    width: 60%;
+    transition: all ease-in-out 500ms;
+    overflow: visible;
+}
+
+.product-container:hover img {
+    width: calc(60% + 100px);
+    transition: all ease-in-out 500ms;
+}
+
+.car-details {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    font-size: 19px;
+    justify-content: flex-start;
+
+}
+
+.info-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(164, 164, 160, 0.5);
+    padding-left: 0.5rem;
+    padding-right: 0.75rem;
+    border-radius: 5rem;
+    gap: 1rem;
+    height: max-content;
+}
+
+.glyphicon {
+    top: 0 !important;
+}
+
+.PurchaseDetails {
+    display: flex;
+    flex-direction: column;
+    width: 85% !important;
+    color: #fffcfc;
+    gap: 1%;
+}
+
+.givenKM {
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.Price {
+    font-size: 29px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+ul.products {
+    display: flex !important;
+    justify-content: center;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+
+/* end product-card style */
+
+/* menu style */
+
+div.storefront-primary-navigation div.col-full nav#site-navigation.main-navigation {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+div.storefront-primary-navigation div.col-full nav#site-navigation.main-navigation div.menu {
+    display: flex;
+    width: 100% !important;
+}
+
+div.storefront-primary-navigation div.col-full ul.nav-menu {
+    display: none;
+    width: 100% !important;
+    justify-content: space-around;
+    background: #876814;
+    background: linear-gradient(15deg, rgba(135, 104, 20, 1) 0%, rgba(166, 0, 0, 1) 35%, rgba(255, 72, 0, 1) 100%);
+    flex-direction: column;
+}
+
+nav.main-navigation.custom-nav {
+    display: none;
+}
+
+
+div.storefront-primary-navigation div.col-full ul.nav-menu:nth-child(1) li a {}
+
+div.storefront-primary-navigation div.col-full div.site-search {
+    margin: 0 !important;
+}
+
+.woocommerce-product-search input[type="search"] {
+    border-radius: 10px;
+    color: #0d0d0d !important;
+}
+
+
+/* end menu style */
+
+
+main#main.site-main {
+    width: 100%;
+}
+
+
+/* nav bar */
+
+header#masthead.site-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header#masthead.site-header div.col-full {
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+div.storefront-primary-navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.storefront-primary-navigation div.col-full div.site-search {
+    width: 100%;
+    z-index: 49;
+}
+
+/* header#masthead.site-header div.col-full div.site-branding{
+
+}
+ */
+.custom-logo {
+    max-width: 200px;
+    height: auto;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+.woocommerce-active .site-header .site-branding {
+    margin: 0;
+}
+
+
+/* end nav bar  */
+
+@media only screen and (max-width: 896px) {
+    .product-container {
+        width: 100%;
+        height: 60vh !important;
+    }
+
+    nav.main-navigation.custom-nav {
+        display: block;
+    }
+
+
+    div.storefront-primary-navigation div.col-full ul.nav-menu {
+        display: flex !important;
+        align-items: center;
+    }
+
+    ul.products li {
+        width: 80% !important;
+    }
+
+    .site-content .col-full {
+        background: none !important;
+    }
+
+    body div#content.site-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.storefront-primary-navigation div.col-full nav#site-navigation.main-navigation div.menu {
+        width: 100% !important;
+    }
+
+    .storefront-handheld-footer-bar ul li.search.active .site-search {
+        top: 100%;
+        height: fit-content;
+    }
+
+    div.storefront-primary-navigation div.col-full div.site-search {
+        width: 100%;
+        height: 0;
+        top: 0;
+    }
+
+    .post-type-archive-product ul.products {
+        width: 100% !important;
+        justify-content: center !important;
+    }
+}
+
+
+/* custom front-page */
+
+
+section.starting-point {
+    background: #cc6289;
+    background: linear-gradient(250deg, rgb(165, 24, 76) 0%, rgb(161, 15, 15) 50%, rgb(206, 142, 53) 100%);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    max-height: 50vh;
+    height: 25vh;
+    position: relative;
+    margin-top: 10%;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.main-image {
+    width: 100%;
+    z-index: 2;
+}
+
+.slogan {
+    z-index: 3;
+    position: absolute;
+    bottom: 19%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background: yellow;
+    width: 100vw;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    height: 17%;
+    align-items: center;
+    background: #6200a3;
+    background: linear-gradient(23deg, rgb(120, 19, 187) 0%, rgb(255, 89, 89) 50%, rgb(145, 48, 242) 100%);
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.draw-circle {
+    z-index: 1;
+    width: 95vh;
+    height: 17.5vw;
+    background: #4b5899;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #4b5899;
+    border-radius: 25% 25% 50% 50%;
+    background: #fa5252;
+    background: radial-gradient(circle, rgb(150, 56, 56) 0%, rgba(66, 0, 7, 0.17) 31%, rgba(194, 76, 87, 0.52) 59%, rgba(112, 53, 56, 0.16) 80%, rgba(252, 70, 107, 0) 91%);
+
+}
+
+
+
+.custom-homepage {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background: #ffffff;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+
+}
+
+body.custom-background {
+    background-repeat: repeat !important;
+}
+
+#page {
+    flex: 1;
+    /* pushes footer down */
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer.site-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+
+
+/* why choose us section */
+.why-choose-us {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #f9f9f9;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+
+.why-choose-us h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.features {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.feature {
+    background: white;
+    padding: 3.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+    width: 85%;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+/* Custom icon colors */
+.feature:nth-child(1) i {
+    color: #28a745;
+}
+
+/* green for unlimited km */
+.feature:nth-child(2) i {
+    color: #ff9800;
+}
+
+/* orange for fuel */
+.feature:nth-child(3) i {
+    color: #007bff;
+}
+
+/* blue for pickup/drop-off */
+.feature:nth-child(4) i {
+    color: #9c27b0;
+}
+
+/* purple for booking */
+.feature:nth-child(5) i {
+    color: #e91e63;
+}
+
+/* pink for support */
+.feature:nth-child(6) i {
+    color: #444;
+}
+
+
+@media only screen and (max-width: 896px) {
+    .features {
+        flex-direction: column;
+    }
+
+    .feature {
+        width: 100%;
+    }
+
+    button.menu-toggle {
+        width: 100%;
+    }
+
+    div.storefront-primary-navigation div.col-full nav#site-navigation.main-navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .custom-logo-link {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .main-navigation ul li a {
+        width: 100% !important;
+    }
+
+    .link-btn {
+        padding: 2% 4% !important;
+    }
+
+    .storefront-handheld-footer-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .why-choose-us {
+        margin-top: 25%;
+    }
+}
+
+
+/* end why choose us  */
+
+
+/* end RnB styles */
+
+
+/* Prevent background scroll */
+body.no-scroll {
+    overflow-y: hidden !important;
+}
+
+
+
+/* end custom front-page */
+
+
+/* categories search / car page */
+#secondary.widget-area {
+    display: none
+}
+
+div.site-content div.col-full {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 80%;
+    width: 80%;
+}
+
+div#primary.content-area {
+    width: 100%;
+}
+
+.storefront-sorting {
+    display: none;
+}
+
+/* end categories search */
+
+
+/* mostly phone */
+
+@media only screen and (max-width: 896px) {
+    .link-btn {
+        font-size: 16px !important;
+    }
+
+    div.site-content div.col-full {
+        max-width: unset !important;
+    }
+
+    .inspect-filter-widget .inspect-filter-widget-title {
+        margin-bottom: 0 !important;
+    }
+
+    .slogan {
+        bottom: -5%;
+        height: 30%;
+    }
+
+    form.inspect-home-search-form {
+        flex-direction: column;
+    }
+
+    .inspect-filter-widget {
+        width: 100%;
+    }
+
+    .features {
+        width: 100%;
+    }
+
+    .main-image {
+        width: 120%;
+        max-width: 120%;
+    }
+
+    .open-filters {
+        width: 100% !important;
+    }
+
+    section.starting-point {
+        margin-top: 0;
+    }
+
+    .custom-search {
+        width: 80%;
+    }
+
+    .img-container img {
+        width: 75%;
+    }
+
+    .product-container:hover img {
+        width: calc(75% + 100px);
+    }
+
+    .custom-search {
+        width: 80%;
+    }
+
+    ul.products li a {
+        width: 100% !important;
+    }
+
+    .site-main ul.products.columns-3 li.product {
+        width: 100%;
+    }
+
+    .woocommerce-active .site-header .site-header-cart {
+        display: none;
+    }
+}
+
+/* end mostly phone */
+
+/* custom filters  */
+.custom-filters {
+    position: absolute;
+    display: flex;
+    width: 35%;
+    height: 105vh;
+    background: #424242;
+    background: linear-gradient(0deg, rgba(66, 66, 66, 0.82) 0%, rgba(255, 255, 255, 1) 18%, rgba(230, 230, 230, 1) 68%, rgba(184, 184, 184, 1) 100%);
+    top: 0;
+    left: -50%;
+    transition: all 300ms ease-in;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 51;
+}
+
+.open-filters {
+    left: 0% !important;
+    transition: all 300ms ease-in;
+}
+
+.link-btn {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1% 2%;
+    color: rgb(34, 32, 32);
+    font-weight: 700;
+    font-size: 21px;
+    transition: all 200ms ease-in;
+    z-index: 2;
+    border-left: 5px solid rgb(189, 224, 236);
+    border-top: 5px solid rgb(189, 224, 236);
+    box-shadow: 10px 10px 5px 5px lightblue;
+}
+
+.link-btn:hover {
+    padding: calc(2% + 5px) calc(4% + 10px);
+}
+
+.filters-title {
+    width: 95%;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    margin-top: 1%;
+    max-height: 500px;
+    height: 5%;
+    border-bottom: 1px black solid;
+    align-items: center;
+    margin-top: 10%;
+    color: #000;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.close-icon .fa {
+    font-size: 1.8em !important;
+    cursor: pointer;
+    color: #ce3030;
+}
+
+.custom-handheld-bar .storefront-handheld-footer-bar {
+    position: sticky !important;
+    /* or relative if you don’t want sticky */
+    top: 0 !important;
+    bottom: auto !important;
+    left: 0;
+    right: 0;
+    border-top: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    /* match header background */
+    z-index: 9999;
+}
+
+.secondary-style {
+    background-color: #ffffffbe;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+/* end custom filters */
+
+
+
+.custom-handheld-bar {
+    width: 100%;
+}
+
+/* footer */
+.site-footer {
+    background: #111;
+    color: #fff;
+    padding: 40px 20px 20px;
+}
+
+.where-to-find-us {
+    padding: 30px 0;
+    background: #f8f8f8;
+    color: #222;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.where-to-find-us h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #e60000;
+}
+
+.where-to-find-us .subtitle {
+    font-size: 1rem;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.info-block {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.info-block h3 {
+    margin-bottom: 10px;
+    color: #e60000;
+}
+
+.info-block a {
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map iframe {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.site-info {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 20px;
+}
+
+/* end footer */
+
+
+.woocommerce-products-header__title.page-title {
+    content: "";
+}
+
+div.page-description>p {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-single-product {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.product-image {
+    display: flex;
+    justify-content: center;
+}
+
+.product-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.product-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    color: #b30000;
+}
+
+.product-booking {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.product-meta {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.product-description,
+.product-additional-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    line-height: 1.6;
+}
+
+
+.toggle-links {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.toggle-link {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    background: #eee;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.toggle-link.active {
+    background: #c00;
+    color: #fff;
+}
+
+.toggle-content {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 896px) {
+
+    /* Hide the second calendar (right one) */
+    .daterangepicker .drp-calendar.right {
+        display: none !important;
+    }
+
+    /* Expand the left calendar to take full width */
+    .daterangepicker .drp-calendar.left {
+        width: 100% !important;
+    }
+
+    /* Center the month + arrows */
+    .daterangepicker .calendar-table thead tr th.month {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    ul.products li {
+        min-width: unset !important;
+    }
+
+    .car-details {
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+
+    .menu-item.lc-cars-li {
+        display: none;
+    }
+}
+
+/* Container */
+.larissa-coverage-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 18px 0 22px;
+    padding: 16px;
+    border: 1px solid #e9e9e9;
+    border-radius: 14px;
+    background: #fafafa;
+}
+
+/* Header row */
+.lc-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lc-title {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+.lc-required {
+    color: #d33;
+    font-weight: 700;
+}
+
+/* Options stack (becomes 2 columns on wide screens) */
+.larissa-coverage-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (min-width: 900px) {
+    .larissa-coverage-options {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+}
+
+/* Option card */
+.larissa-coverage-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 14px;
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    background: #fff;
+    transition: box-shadow .15s ease, border-color .15s ease;
+    flex: 1 1 48%;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+@media (max-width: 896px) {
+    .larissa-coverage-option {
+        flex-basis: 100%;
+    }
+}
+
+.larissa-coverage-option:hover,
+.larissa-coverage-option:has(.lc-radio:checked) {
+    border-color: #d0d7ff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .05);
+}
+
+/* Radio + body */
+.lc-radio {
+    flex: 0 0 auto;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    accent-color: #2563eb;
+    /* modern, clean */
+}
+
+.lc-body {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+/* First row: label left, excess right */
+.lc-row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    width: 100%;
+
+}
+
+.lc-head {
+    font-weight: 700;
+    letter-spacing: .1px;
+}
+
+.lc-excess {
+    margin-left: auto;
+    font-size: .92rem;
+    opacity: .8;
+}
+
+/* Description + note */
+.lc-desc {
+    margin: 0;
+    color: #555;
+    line-height: 1.35;
+}
+
+.lc-note {
+    margin: 0;
+    color: #666;
+    font-size: .9rem;
+}
+
+/* Accessibility states */
+.larissa-coverage-option:focus-within {
+    outline: 2px solid #2563eb33;
+    outline-offset: 2px;
+    border-color: #2563eb66;
+}
+
+/* Hide the radio but keep it accessible */
+.larissa-coverage-option {
+    position: relative;
+}
+
+.larissa-coverage-option .lc-radio {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    width: 1px;
+    height: 1px;
+}
+
+/* Selected state (JS adds .is-selected) */
+.larissa-coverage-option.is-selected {
+    border-color: #ef4444;
+    /* red-500 */
+    background: #fee2e2;
+    /* red-100 */
+    box-shadow: 0 0 0 2px rgba(239, 68, 68, .15) inset;
+}
+
+.larissa-coverage-option.is-selected .lc-head,
+.larissa-coverage-option.is-selected .lc-excess {
+    color: #991b1b;
+}
+
+/* red-800 */
+
+/* Optional: hover hint */
+.larissa-coverage-option:hover {
+    border-color: #fca5a5;
+    /* red-300 */
+}
+
+/* Keyboard focus */
+.larissa-coverage-option:focus-within {
+    outline: 2px solid rgba(239, 68, 68, .25);
+    outline-offset: 2px;
+}
+
+
+/* --- CART (Blocks) — force flex instead of grid --- */
+.woocommerce-cart .wc-block-cart .wc-block-components-sidebar-layout {
+    display: flex !important;
+    /* override Blocks grid */
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+/* Main items column (left) */
+.woocommerce-cart .wc-block-cart .wc-block-components-main {
+    flex: 1 1 700px;
+    min-width: 0;
+    /* prevent overflow */
+}
+
+/* Totals sidebar (right) */
+.woocommerce-cart .wc-block-cart .wc-block-components-sidebar {
+    flex: 0 0 360px;
+    position: sticky;
+    top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Items table “card” look */
+.woocommerce-cart .wc-block-cart .wc-block-cart-items {
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.woocommerce-cart .wc-block-cart .wc-block-cart-items table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.woocommerce-cart .wc-block-cart .wc-block-cart-items th,
+.woocommerce-cart .wc-block-cart .wc-block-cart-items td {
+    vertical-align: middle;
+    padding: 12px 14px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.woocommerce-cart .wc-block-cart .wc-block-cart-items tr:last-child td {
+    border-bottom: 0;
+}
+
+/* Totals card */
+.woocommerce-cart .wc-block-cart .wc-block-cart__sidebar .wc-block-cart-totals-block {
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 16px;
+    background: #fff;
+}
+
+/* Checkout button */
+.woocommerce-cart .wc-block-cart .wc-block-components-button.wp-element-button {
+    width: 100%;
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-weight: 700;
+    background: #ef4444;
+    color: #fff;
+}
+
+/* Remove “cross-sells”/suggested items block if present */
+.woocommerce-cart .wc-block-cart .wp-block-woocommerce-cross-sells-block {
+    display: none;
+}
+
+
+/* Woo Blocks top snackbar/notice */
+.wc-block-components-notices__snackbar .wc-block-components-snackbar,
+.wc-block-components-notice-banner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #1f2937 !important;
+    /* dark */
+    color: #fff !important;
+    border-left: 5px solid #ef4444;
+    /* red accent */
+    border-radius: 12px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, .08);
+}
+
+/* Button inside the banner */
+.wc-block-components-notice-banner .wc-block-components-button {
+    border-radius: 9999px;
+    padding: 9px 14px;
+    background: #ef4444 !important;
+    color: #fff !important;
+    border: none;
+}
+
+/* Product: selected waiver badge (flex) */
+.lc-selected-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    border: 1px dashed #ef4444;
+    border-radius: 10px;
+    background: #fff1f2;
+    color: #991b1b;
+    margin-bottom: 6px;
+}
+
+.lc-selected-badge strong {
+    font-weight: 800;
+}
+
+.wp-block-woocommerce-cart {
+    container-type: normal !important;
+}
+
+.wc-block-components-sidebar-layout {
+    display: flex !important;
+    justify-content: center;
+}
+
+header h1.entry-title,
+article div.entry-content {
+    color: #000;
+}
+
+/* Hide any cross-sells / product collections inside the Cart (Blocks) */
+.woocommerce-cart .wp-block-woocommerce-cross-sells-block,
+.woocommerce-cart .wc-block-cart [class*="empty-cart"] .wp-block-woocommerce-product-collection,
+.woocommerce-cart .wc-block-cart [class*="empty-cart"] .wp-block-woocommerce-product-query,
+.woocommerce-cart .wc-block-cart [class*="empty-cart"] .wp-block-woocommerce-products {
+    display: none !important;
+}
+
+/* Handheld footer bar: car icon via pseudo-element like Storefront does */
+.storefront-handheld-footer-bar ul li.cars>a::before {
+    /* FA6 solid car-side = \f5e4. Use \f1b9 for classic car if you prefer */
+    content: "\f5e4";
+    font-family: "Font Awesome 6 Free", "Font Awesome 5 Free";
+    /* fallback */
+    font-weight: 900;
+    /* solid */
+}
+
+/* Optional: disabled state visual (link removed by JS on Cars page) */
+.storefront-handheld-footer-bar li.cars.is-disabled>a {
+    opacity: 1;
+    pointer-events: none;
+}
+
+.archive .storefront-handheld-footer-bar li.cars.is-disabled>a {
+    color: grey;
+}
+
+.menu-item.lc-cars-li .lc-cars-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+    gap: 10%;
+    background: #e41a1f;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.archive .menu-item.lc-cars-li .lc-cars-link {
+    cursor: default;
+    background: #d2b4b5;
+}
+
+.site-header-cart:hover .widget_shopping_cart {
+    display: none;
+}
+
+.lc-locked {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+.lc-waiver-error {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    background: #fee2e2;
+    color: #7f1d1d;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+}
+
+.lc-attn {
+    outline: 2px solid #ef4444;
+    outline-offset: 4px;
+}
+
+.lc-waiver-totals {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #fff;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+.lc-waiver-totals .row {
+    display: flex;
+    align-items: baseline;
+}
+
+.lc-waiver-totals .row .val {
+    margin-left: auto;
+    font-weight: 800;
+}
+
+.lc-waiver-totals .row.total {
+    font-size: 1.05rem;
+}
+
+.lc-waiver-totals .hint {
+    color: #6b7280;
+    font-size: .9rem;
+}
+
+/* WooCommerce Blocks: hide address groups we don’t use */
+.wc-block-components-address-form__address_1,
+.wc-block-components-address-form__address_2,
+.wc-block-components-address-form__city,
+.wc-block-components-address-form__state,
+.wc-block-components-address-form__postcode,
+.wc-block-components-address-form__address_2-toggle,
+.wc-block-components-form .wc-block-components-text-input[name="billing_company"] {
+    display: none !important;
+}
+
+/* Make the order summary on the right cleaner */
+.wc-block-components-order-summary .wc-block-components-order-summary-item__description p {
+    margin: 0.25rem 0;
+}
+
+body {
+    overflow: hidden !important;
+}
+
+.page-id-9 .site-content .col-full div#primary.content-area,
+.privacy-policy div#content div.col-full {
+    background-color: rgb(255, 255, 255, 85%);
+}
+
+/* ============ Car Carousel — variables ============ */
+:root {
+    --car-accent: #e0352f;
+    /* theme red */
+    --car-bg: rgba(0, 0, 0, .7);
+    --car-dot: #cfd3d8;
+    --car-dot-active: var(--car-accent);
+    --car-radius: 14px;
+    --car-shadow: 0 12px 30px rgba(0, 0, 0, .25);
+    --car-arrow-bg: rgba(0, 0, 0, .55);
+    --car-arrow-bg-hover: rgba(0, 0, 0, .75);
+}
+
+/* ============ Wrapper & viewport ============ */
+.car-carousel {
+    position: relative;
+    margin: 1.5rem auto;
+    max-width: min(100%, 1100px);
+    user-select: none;
+}
+
+.car-carousel__viewport {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--car-radius);
+    background: linear-gradient(180deg, rgba(0, 0, 0, .15), rgba(0, 0, 0, .25));
+    box-shadow: var(--car-shadow);
+}
+
+/* Height rules:
+     - Desktop: not too tall
+     - Mobile: a bit taller than before (based on width) */
+.car-carousel__viewport {
+    height: clamp(320px, 50vh, 540px);
+}
+
+@media (max-width: 896px) {
+    .car-carousel__viewport {
+        height: clamp(260px, 70vw, 460px);
+    }
+}
+
+/* ============ Track & slides ============ */
+.car-carousel__track {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform .45s ease;
+    will-change: transform;
+    touch-action: pan-y;
+}
+
+.car-carousel__slide {
+    flex: 0 0 100%;
+    display: grid;
+    place-items: center;
+}
+
+.car-carousel__img {
+
+    object-fit: contain !important;
+    /* letterbox as needed, never crop */
+    display: block;
+    cursor: default;
+}
+
+/* ============ Arrows ============ */
+.car-carousel__nav {
+    position: absolute;
+    inset-block: 0;
+    margin-block: auto;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: 0;
+    color: #fff;
+    font: 700 24px/0 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background: var(--car-arrow-bg);
+    display: grid;
+    place-items: center;
+    transition: background .2s ease, transform .2s ease, opacity .2s ease;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .25);
+}
+
+.car-carousel__nav:hover {
+    background: var(--car-arrow-bg-hover);
+    transform: translateY(-1px);
+}
+
+.car-carousel__nav:disabled {
+    opacity: .35;
+    pointer-events: none;
+}
+
+.car-carousel__nav.is-prev {
+    left: 10px;
+}
+
+.car-carousel__nav.is-next {
+    right: 10px;
+}
+
+@media (max-width: 896px) {
+    .car-carousel__nav {
+        height: 42px;
+        width: 42px;
+        font-size: 22px;
+    }
+
+    .car-carousel__nav.is-prev {
+        left: 6px;
+    }
+
+    .car-carousel__nav.is-next {
+        right: 6px;
+    }
+}
+
+/* ============ Dots ============ */
+.car-carousel__dots {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin: 12px 0 0;
+}
+
+.car-carousel__dot {
+    height: 8px;
+    width: 28px;
+    border-radius: 999px;
+    border: 0;
+    background: var(--car-dot);
+    opacity: .9;
+    transition: background .2s ease, transform .15s ease, opacity .2s ease;
+}
+
+.car-carousel__dot:hover {
+    opacity: 1;
+    transform: translateY(-1px);
+}
+
+.car-carousel__dot.is-active {
+    background: var(--car-dot-active);
+}
+
+/* Give a little breathing room below dots */
+.car-carousel+.car-carousel__dots {
+    margin-top: 12px;
+}
+
+/* ============ Lightbox ============ */
+.car-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, .92);
+    display: grid;
+    grid-template-areas: "stack";
+    place-items: center;
+    padding: 28px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .2s ease;
+}
+
+.car-lightbox.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.car-lightbox[hidden] {
+    display: grid;
+}
+
+/* keep grid sizing but hidden until open */
+
+.car-lightbox img {
+    grid-area: stack;
+    max-width: 92vw;
+    max-height: 88vh;
+    object-fit: contain;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .6);
+}
+
+/* Lightbox controls */
+.car-lightbox__close {
+    position: fixed;
+    top: 14px;
+    right: 14px;
+    height: 42px;
+    width: 42px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .12);
+    color: #fff;
+    font: 700 22px/0 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: background .2s ease, transform .15s ease;
+}
+
+.car-lightbox__close:hover {
+    background: rgba(255, 255, 255, .22);
+    transform: rotate(90deg);
+}
+
+.car-lightbox__nav {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    border: 0;
+    background: rgba(255, 255, 255, .12);
+    color: #fff;
+    font: 700 26px/0 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: background .2s ease, transform .15s ease;
+}
+
+.car-lightbox__nav:hover {
+    background: rgba(255, 255, 255, .22);
+    transform: translateY(-50%) scale(1.06);
+}
+
+.car-lightbox__nav.is-prev {
+    left: 20px;
+}
+
+.car-lightbox__nav.is-next {
+    right: 20px;
+}
+
+@media (max-width:896px) {
+    .car-lightbox {
+        padding: 16px;
+    }
+
+    .car-lightbox img {
+        max-width: 94vw;
+        max-height: 84vh;
+    }
+
+    .car-lightbox__nav {
+        height: 48px;
+        width: 48px;
+        font-size: 22px;
+    }
+
+    .car-lightbox__nav.is-prev {
+        left: 10px;
+    }
+
+    .car-lightbox__nav.is-next {
+        right: 10px;
+    }
+
+    .car-lightbox__close {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+}
+
+/* Optional: pointer cursor on images inside carousel */
+.car-carousel__slide img {
+    cursor: default;
+    object-fit: contain !important;
+}
+
+
+/* layout helpers */
+.larissa-checkout .lc-grid {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    gap: 24px
+}
+
+@media(max-width:980px) {
+    .larissa-checkout .lc-grid {
+        grid-template-columns: 1fr
+    }
+}
+
+.larissa-checkout .row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px
+}
+
+.larissa-checkout .row-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px
+}
+
+.larissa-checkout .form-row {
+    margin: 0 0 12px
+}
+
+.larissa-checkout .btn-primary {
+    width: 100%;
+    padding: 14px;
+    border: 0;
+    border-radius: 10px;
+    background: #222;
+    color: #fff;
+    font-weight: 600
+}
+
+.larissa-checkout .lc-side {
+    background: rgba(0, 0, 0, .06);
+    border-radius: 14px;
+    padding: 16px
+}
+
+.hidden {
+    display: none
+}
+
+/* cards & switches */
+.lc-card {
+    padding: 12px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, .04);
+    margin: 12px 0
+}
+
+.switch-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer
+}
+
+/* dropzones */
+.dz {
+    position: relative
+}
+
+.dz input[type=file] {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer
+}
+
+.dz__box {
+    border: 1.5px dashed rgba(0, 0, 0, .3);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: #fff
+}
+
+.dz.is-over .dz__box {
+    border-color: #e33;
+    background: #fff5f5
+}
+
+.dz__label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.dz__hint {
+    font-size: 12px;
+    opacity: .7
+}
+
+.dz__name {
+    font-size: 12px;
+    opacity: .85
+}
+
+.dz__preview img {
+    display: block;
+    max-width: 100%;
+    max-height: 140px;
+    border-radius: 8px
+}
+
+/* Order Summary */
+.os-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 14px
+}
+
+/* Card layout */
+.os-card {
+    display: grid;
+    grid-template-columns: 84px 1fr;
+    gap: 12px;
+    background: rgba(255, 255, 255, .06);
+    backdrop-filter: blur(2px);
+    border-radius: 14px;
+    padding: 12px
+}
+
+.os-thumb {
+    width: 84px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 8px
+}
+
+.os-body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.os-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center
+}
+
+.os-title {
+    font-weight: 700
+}
+
+.os-qty {
+    font-weight: 500;
+    opacity: .7;
+    margin-left: 6px
+}
+
+.os-line-total {
+    font-weight: 700
+}
+
+.os-specs {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap
+}
+
+.chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, .08)
+}
+
+.chip i {
+    font-size: 12px
+}
+
+.os-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 13px
+}
+
+.os-meta strong {
+    font-weight: 600
+}
+
+.os-coverage {
+    margin-top: 4px;
+    padding: 6px 8px;
+    border-radius: 8px;
+    background: rgba(255, 0, 0, .06);
+    font-weight: 600
+}
+
+/* Totals */
+.os-totals {
+    margin-top: 6px;
+    padding: 12px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, .06)
+}
+
+.os-totals .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0
+}
+
+.os-totals .grand {
+    font-weight: 800;
+    border-top: 1px solid rgba(0, 0, 0, .15);
+    padding-top: 8px
+}
+
+
+
+
+/* --------- */
+/* Scope everything tightly to the account page */
+body.woocommerce-account .entry-content>.woocommerce {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-inline: clamp(12px, 3vw, 24px);
+}
+
+/* Woo notice ribbon (error/success/info) */
+body.woocommerce-account .woocommerce-notices-wrapper .woocommerce-error,
+body.woocommerce-account .woocommerce-notices-wrapper .woocommerce-message,
+body.woocommerce-account .woocommerce-notices-wrapper .woocommerce-info {
+    border: 0;
+    border-radius: 14px;
+    padding: 14px 18px;
+    margin-bottom: 18px;
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .18);
+}
+
+body.woocommerce-account .woocommerce-notices-wrapper .woocommerce-error {
+    background: linear-gradient(180deg, #ef4444, #dc2626);
+    color: #fff;
+}
+
+body.woocommerce-account .woocommerce-notices-wrapper .woocommerce-message {
+    background: linear-gradient(180deg, #22c55e, #16a34a);
+    color: #fff;
+}
+
+body.woocommerce-account .woocommerce-notices-wrapper .woocommerce-info {
+    background: linear-gradient(180deg, #3b82f6, #2563eb);
+    color: #fff;
+}
+
+/* Two column layout → modern cards */
+#customer_login.u-columns.col2-set {
+    display: flex;
+    gap: clamp(16px, 2.5vw, 28px);
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+#customer_login .u-column1,
+#customer_login .u-column2 {
+    flex: 1 1 460px;
+    display: flex;
+}
+
+/* Card */
+#customer_login .u-column1>form,
+#customer_login .u-column2>form {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: clamp(20px, 3.2vw, 30px);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, .28);
+}
+
+#customer_login h2 {
+    margin: 0 0 14px;
+    font-size: clamp(20px, 2.6vw, 26px);
+    font-weight: 800;
+    letter-spacing: .2px;
+    color: #fff;
+}
+
+#customer_login label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #1c1c1c;
+}
+
+/* Inputs */
+#customer_login .form-row {
+    margin: 0 0 14px;
+}
+
+#customer_login input[type="text"],
+#customer_login input[type="email"],
+#customer_login input[type="password"] {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: rgba(255, 255, 255, 0.95);
+    color: #111;
+    border-radius: 14px;
+    padding: 14px 16px;
+    line-height: 1.25;
+    transition: box-shadow .2s ease, transform .06s ease;
+}
+
+#customer_login input[type="text"]:focus,
+#customer_login input[type="email"]:focus,
+#customer_login input[type="password"]:focus {
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, .25);
+    transform: translateY(-1px);
+}
+
+#customer_login .woocommerce-form__input-checkbox+span,
+#customer_login .woocommerce-LostPassword a {
+    color: #1c1c1c;
+}
+
+/* Buttons */
+#customer_login .button,
+#customer_login .woocommerce-form-login__submit,
+#customer_login button[name="register"] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    height: 48px;
+    border-radius: 14px;
+    border: 0;
+    font-weight: 800;
+    letter-spacing: .3px;
+    color: #1c1c1c;
+    background: linear-gradient(90deg, #ef4444, #dc2626);
+    box-shadow: 0 10px 24px rgba(220, 38, 38, .35);
+    transition: transform .08s ease, box-shadow .2s ease, filter .2s ease;
+}
+
+#customer_login .button:hover {
+    filter: brightness(1.06);
+    box-shadow: 0 12px 28px rgba(220, 38, 38, .45);
+}
+
+#customer_login .button:active {
+    transform: translateY(1px);
+}
+
+/* Helpers under buttons */
+#customer_login .woocommerce-LostPassword a,
+#customer_login .woocommerce-form__label-for-checkbox {
+    font-size: 13px;
+    opacity: .9;
+}
+
+/* Make the whole section read better on your dark bg */
+body.woocommerce-account .entry-content {
+    color: #1c1c1c;
+}
+
+/* Small adjustments for super-narrow screens */
+@media (max-width: 896px) {
+    #customer_login h2 {
+        margin-bottom: 10px;
+    }
+
+    #customer_login .button {
+        height: 46px;
+    }
+}
+
+
+
+/* --- Tabs styling --- */
+.acc-switch {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 8px auto 18px;
+    width: min(1080px, 100%);
+}
+
+.acc-switch .acc-tab {
+    appearance: none;
+    border: 1px solid rgba(255, 255, 255, .18);
+    background: rgba(255, 255, 255, .06);
+    color: #1c1c1c;
+    padding: 10px 18px;
+    border-radius: 9999px;
+    font-weight: 800;
+    letter-spacing: .2px;
+    cursor: pointer;
+    transition: filter .2s ease, box-shadow .2s ease, transform .08s ease;
+}
+
+.acc-switch .acc-tab.is-active {
+    background: linear-gradient(90deg, #ef4444, #dc2626);
+    box-shadow: 0 10px 24px rgba(220, 38, 38, .35);
+}
+
+.acc-switch .acc-tab:active {
+    transform: translateY(1px);
+}
+
+/* --- Show one card at a time --- */
+#customer_login.mode-login .u-column1 {
+    display: flex !important;
+}
+
+#customer_login.mode-login .u-column2 {
+    display: none;
+}
+
+#customer_login.mode-register .u-column1 {
+    display: none;
+}
+
+#customer_login.mode-register .u-column2 {
+    display: flex;
+}
+
+/* Smooth appearance */
+#customer_login .u-column1>form,
+#customer_login .u-column2>form {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity .22s ease, transform .22s ease;
+}
+
+#customer_login.mode-login .u-column2>form,
+#customer_login.mode-register .u-column1>form {
+    opacity: .0;
+    transform: translateY(4px);
+}
+
+.woocommerce-account .u-columns h2 {
+    display: none;
+}
+
+
+
+/* Add to your account-modern.css */
+.woocommerce-account .larissa-docs {
+    margin-top: 10px;
+    padding: 14px 16px;
+    background: rgba(255, 255, 255, .07);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, .14);
+    border-radius: 16px;
+}
+
+.woocommerce-account .larissa-docs legend {
+    font-weight: 800;
+    color: #1c1c1c;
+    padding: 0 6px;
+    margin: 0 0 8px;
+}
+
+.woocommerce-account .larissa-docs input[type=file] {
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    border: 0;
+}
+
+
+
+
+
+/* Base wrapper */
+.page-id-10.logged-in body.woocommerce-account .entry-content>.woocommerce {
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: clamp(14px, 2.6vw, 28px);
+    align-items: start;
+}
+
+@media (max-width: 896px) {
+    .page-id-10.logged-in body.woocommerce-account .entry-content>.woocommerce {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Sidebar nav (glass card) */
+.page-id-10.logged-in .woocommerce-MyAccount-navigation {
+    background: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 18px;
+    padding: 14px;
+    position: sticky;
+    top: 90px;
+}
+
+.page-id-10.logged-in .woocommerce-MyAccount-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 6px;
+}
+
+.page-id-10.logged-in .woocommerce-MyAccount-navigation li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 14px;
+    border-radius: 12px;
+    color: #313131;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background .18s ease, transform .06s ease;
+}
+
+.page-id-10.logged-in .woocommerce-MyAccount-navigation li a:hover {
+    background: rgba(255, 255, 255, 0.09);
+}
+
+.page-id-10.logged-in .woocommerce-MyAccount-navigation li.is-active a {
+    background: linear-gradient(90deg, #ef4444, #dc2626);
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(220, 38, 38, .35);
+}
+
+/* Content card */
+.page-id-10.logged-in .woocommerce-MyAccount-content {
+    background: rgba(255, 255, 255, 0.08);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: clamp(18px, 3vw, 28px);
+    color: #f3f4f6;
+}
+
+.page-id-10.logged-in .woocommerce-MyAccount-content a {
+    color: #111;
+    text-decoration: underline;
+}
+
+/* Optional — hide Woo’s default intro paragraph */
+.page-id-10.logged-in .woocommerce-MyAccount-content>p:first-of-type {
+    display: none;
+}
+
+/* Verification banner */
+.page-id-10.logged-in .acc-verify {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 14px;
+    padding: 12px 14px;
+    margin: 0 0 14px;
+    font-weight: 700;
+}
+
+.page-id-10.logged-in .acc-verify__title {
+    margin-right: 6px;
+}
+
+.page-id-10.logged-in .acc-verify--pending {
+    background: linear-gradient(180deg, #fbbf24, #f59e0b);
+    color: #111;
+}
+
+.page-id-10.logged-in .acc-verify--verified {
+    background: linear-gradient(180deg, #22c55e, #16a34a);
+    color: #111;
+}
+
+.page-id-10.logged-in .acc-verify--rejected {
+    background: linear-gradient(180deg, #ef4444, #dc2626);
+    color: #111;
+}
+
+/* Quick actions grid */
+.page-id-10.logged-in .acc-quick {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 12px;
+    margin: 8px 0 2px;
+}
+
+.page-id-10.logged-in .acc-card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    text-decoration: none;
+    color: #111;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 14px;
+    padding: 14px;
+    transition: transform .06s ease, box-shadow .2s ease, filter .2s ease;
+}
+
+.page-id-10.logged-in .acc-card:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, .25);
+}
+
+.page-id-10.logged-in .acc-card__title {
+    font-weight: 800;
+}
+
+.page-id-10.logged-in .acc-card__desc {
+    opacity: .85;
+    font-size: 13px;
+}
+
+/* Tables and forms within account pages */
+.page-id-10.logged-in .woocommerce-MyAccount-content table.shop_table {
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.page-id-10.logged-in .woocommerce-MyAccount-content table.shop_table th,
+.page-id-10.logged-in .woocommerce-MyAccount-content table.shop_table td {
+    color: #1d1d1d;
+    border-color: rgba(255, 255, 255, 0.14);
+}
+
+.page-id-10.logged-in .woocommerce-MyAccount-content .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 0;
+    border-radius: 12px;
+    padding: 10px 16px;
+    font-weight: 800;
+    color: #111;
+    text-decoration: none;
+    background: linear-gradient(90deg, #ef4444, #dc2626);
+    box-shadow: 0 8px 20px rgba(220, 38, 38, .35);
+    transition: filter .2s ease, transform .06s ease;
+}
+
+.page-id-10.logged-in .woocommerce-MyAccount-content .button:hover {
+    filter: brightness(1.06);
+}
+
+.page-id-10.logged-in .woocommerce-MyAccount-content .button:active {
+    transform: translateY(1px);
+}
+
+
+/* Documents endpoint card */
+.larissa-docs-card {
+    background: rgba(255, 255, 255, .07);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, .14);
+    border-radius: 18px;
+    padding: 18px;
+    color: #000;
+}
+
+.larissa-docs-card h3 {
+    margin: 0 0 10px;
+    font-weight: 800;
+    color: #000;
+}
+
+.larissa-docs-card .desc {
+    opacity: .9;
+    margin: 0 0 14px;
+}
+
+.docs-grid {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    margin: 4px 0 12px;
+}
+
+.doc-item {
+    background: rgba(255, 255, 255, .06);
+    border: 1px solid rgba(255, 255, 255, .14);
+    border-radius: 14px;
+    padding: 12px;
+}
+
+.doc-head {
+    font-weight: 800;
+    margin: 0 0 8px;
+}
+
+.doc-current {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.doc-thumb {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .25);
+}
+
+.doc-thumb.ghost {
+    background: rgba(255, 255, 255, .2);
+}
+
+.larissa-docs-form .button {
+    margin-top: 6px;
+}
+
+
+
+/* Make it obvious the banner is clickable when rejected */
+.acc-verify--link {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Make the “Documents” card stand out when rejected */
+.acc-card--primary {
+    outline: 2px solid rgba(231, 41, 41, .65);
+    box-shadow: 0 12px 32px rgba(231, 41, 41, .25);
+}
+
+.post-10 fieldset {
+    color: #000 !important;
+}
+
+
+/* Keep cart and our pill in one row */
+#masthead .site-header-cart {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+#masthead .header-account-pill {
+    display: inline-flex;
+    margin-left: .6rem;
+    vertical-align: middle;
+}
+
+/* Base pill */
+.header-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    height: 40px;
+    padding: 0 .9rem;
+    border-radius: 1rem;
+    background: #6b7280;
+    /* gray */
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid transparent;
+    text-decoration: none;
+    transition: transform .15s ease, background .2s ease, border-color .2s ease;
+}
+
+.header-pill:hover {
+    transform: translateY(-1px);
+}
+
+.pill-icon {
+    display: inline-flex;
+}
+
+.pill-text {
+    line-height: 1;
+}
+
+/* Status borders when logged in */
+.header-pill--account.status--verified {
+    border-color: #22c55e;
+}
+
+/* green */
+.header-pill--account.status--pending {
+    border-color: #f59e0b;
+}
+
+/* amber */
+.header-pill--account.status--rejected {
+    border-color: #ef4444;
+}
+
+/* red */
+
+@media (max-width: 896px) {
+    #masthead .header-account-pill {
+        margin-left: .4rem;
+    }
+
+    .header-pill {
+        height: 36px;
+        padding: 0 .75rem;
+    }
+}
+
+
+li.menu-item.lc-cars-li {
+    width: 100%;
+}
+
+
+.lc-docs-note {
+    margin: 12px 0;
+    padding: 12px;
+    border-radius: 10px
+}
+
+.lc-docs-note--ok {
+    background: #e8fff2;
+    border: 1px solid #2ecc71
+}
+
+.lc-docs-note--pending {
+    background: #fff8e1;
+    border: 1px solid #f39c12
+}
+
+.lc-docs-note--rejected {
+    background: #ffecec;
+    border: 1px solid #e74c3c
+}
+
+.larissa-verify-banner {
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    margin: 0 0 1rem;
+    font-weight: 600
+}
+
+.larissa-verify--ok {
+    background: #e6ffed;
+    border: 1px solid #b6f3c1;
+    color: #145c2b
+}
+
+.larissa-verify--pending {
+    background: #fff8e1;
+    border: 1px solid #ffe49a;
+    color: #7a5600
+}
+
+.larissa-verify--bad {
+    background: #ffecec;
+    border: 1px solid #ffb8b8;
+    color: #7a1212
+}
+
+.larissa-docs-section {
+    margin-top: 1.5rem
+}
+
+.larissa-doc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px
+}
+
+.larissa-docs-hint {
+    opacity: .75;
+    margin-top: .5rem
+}
+
+@media (max-width:896px) {
+    .larissa-doc-grid {
+        grid-template-columns: 1fr
+    }
+}
+
+.larissa-bacs-box {
+    background: #f8fafd;
+    border: 1px solid #d7e2f3;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-top: 1rem
+}
+
+.post-type-archive-product .site-content .col-full div#primary.content-area main#main.site-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-type-archive-product ul.products {
+    width: 80%;
+    justify-content: flex-start;
+}
+
+/* larissa-checkout.css - focused modern checkout UI */
+
+/* container, center and limit width */
+body .woocommerce-checkout .woocommerce {
+    max-width: 1120px;
+    margin: 18px auto;
+    padding: 0 18px 48px;
+    box-sizing: border-box;
+}
+
+/* grid: put billing / form left and order summary right */
+.woocommerce-checkout .col2-set {
+
+    gap: 28px;
+    align-items: start;
+}
+
+/* responsive single-column for narrow viewports */
+@media (max-width: 980px) {
+    .woocommerce-checkout .col2-set {
+        grid-template-columns: 1fr !important;
+        gap: 16px;
+        padding: 0 12px;
+    }
+}
+
+.woocommerce-checkout .col2-set .col-2 {
+    display: none;
+}
+
+/* form card style (left column) */
+.woocommerce-checkout .col-1,
+.woocommerce-checkout .col1,
+.woocommerce-checkout .woocommerce-billing-fields,
+.woocommerce-checkout form.checkout {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* inputs (big, modern) */
+.woocommerce-checkout input.input-text,
+.woocommerce-checkout input[type="email"],
+.woocommerce-checkout input[type="text"],
+.woocommerce-checkout textarea,
+.woocommerce-checkout select {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: rgba(255, 255, 255, 0.96);
+    font-size: 14px;
+    color: #222;
+    box-sizing: border-box;
+}
+
+/* two-column fields */
+.woocommerce .form-row-first,
+.woocommerce .form-row-last {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.woocommerce .form-row-first {
+    margin-right: 4%;
+}
+
+/* stacking on mobile */
+@media (max-width: 640px) {
+
+    .woocommerce .form-row-first,
+    .woocommerce .form-row-last {
+        width: 100%;
+        display: block;
+        margin-right: 0;
+    }
+}
+
+/* order summary card (right column) */
+.woocommerce-checkout .col-2,
+.woocommerce-checkout .woocommerce-checkout-review-order .shop_table,
+.woocommerce-checkout #order_review {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.25);
+    color: #222;
+}
+
+/* sticky order summary on desktop */
+@media (min-width: 981px) {
+    .woocommerce-checkout .col2-set> :nth-child(2) {
+        position: sticky;
+        top: 30px;
+        align-self: start;
+    }
+}
+
+/* order lines */
+.woocommerce-checkout .shop_table .product-name {
+    font-weight: 600;
+    color: #111;
+}
+
+.woocommerce-checkout .shop_table .product-total {
+    font-weight: 700;
+}
+
+/* Place order button matches site brand */
+.woocommerce-checkout button#place_order,
+.woocommerce-checkout .place-order .button {
+    display: block;
+    width: 100%;
+    padding: 14px 18px;
+    border-radius: 10px;
+    background: #cf1f1f;
+    /* brand red */
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0 10px 20px rgba(207, 31, 31, 0.18);
+    transition: transform .12s ease;
+}
+
+.woocommerce-checkout button#place_order:hover {
+    transform: translateY(-2px);
+}
+
+/* Notices: verification banner (green) */
+.woocommerce .larissa-verify-ok,
+.woocommerce .woocommerce-message.larissa-verified {
+    background: #eaf8ee;
+    color: #0b6b3a;
+    border: 1px solid #d6f0dc;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+/* errors */
+.woocommerce .woocommerce-error {
+    background: #d83b2f;
+    color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+
+/* ---------- Coming soon payment UI ---------- */
+.larissa-coming-soon-payment {
+    margin-bottom: 18px;
+}
+
+.larissa-coming-soon-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.larissa-coming-soon-label input[type="radio"] {
+    transform: scale(1.0);
+    margin-right: 8px;
+}
+
+.larissa-coming-soon-title {
+    font-weight: 700;
+    color: #222;
+}
+
+.larissa-coming-soon-badge {
+    background: #f3f3f3;
+    color: #222;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+/* visually de-emphasize (disabled) */
+.larissa-coming-soon-label input[disabled]~.larissa-coming-soon-title {
+    opacity: 0.6;
+}
+
+/* small explanatory note under the radio */
+.larissa-coming-soon-note {
+    margin-top: 8px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* if you want the label clickable, give it a hover */
+.larissa-coming-soon-label:hover {
+    opacity: 0.95;
+}
+
+/* small modal/toast style used by the JS */
+.larissa-toast {
+    position: fixed;
+    right: 20px;
+    top: 80px;
+    z-index: 99999;
+    background: #323232;
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+    display: none;
+}
+
+/* tiny responsive cleanup */
+@media (max-width: 896px) {
+    .woocommerce-checkout button#place_order {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .woocommerce-checkout .col2-set {
+        padding: 0 10px;
+    }
+
+    .page-id-8 div.site-content div.col-full,
+    .page-id-204 div.site-content div.col-full {
+        width: 100%;
+    }
+
+    #masthead .header-account-pill {
+        display: none;
+    }
+}
+
+/*  ---------------- */
+
+/* Remove Woo notice icons (broken squares) */
+.woocommerce-error::before,
+.woocommerce-info::before,
+.woocommerce-message::before {
+    display: none !important;
+    content: none !important;
+}
+
+/* Optional: remove spacing that was reserved for the icon */
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+    padding-left: 16px !important;
+}
+
+/* If the coupon toggle specifically has an icon */
+.woocommerce-form-coupon-toggle .woocommerce-info::before {
+    display: none !important;
+    content: none !important;
+}
+
+.woocommerce-checkout .woocommerce-error::before,
+.woocommerce-checkout .woocommerce-info::before,
+.woocommerce-checkout .woocommerce-message::before {
+    display: none !important;
+    content: none !important;
+}
+
+.woocommerce-checkout .woocommerce-error,
+.woocommerce-checkout .woocommerce-info,
+.woocommerce-checkout .woocommerce-message {
+    padding-left: 16px !important;
+}
+
+
+/* Wrapper */
+.rcl24-header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+/* Show desktop by default */
+.rcl24-header-desktop {
+    display: block;
+}
+
+.rcl24-header-handheld {
+    display: none;
+}
+
+/* Switch on small screens */
+@media (max-width: 980px) {
+    .rcl24-header-desktop {
+        display: none;
+    }
+
+    .rcl24-header-handheld {
+        display: block;
+    }
+}
+
+
+/* ------------------------------------------------------------ */
+
+/* Base desktop layout */
+.rcl24-nav--desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 14px 18px;
+    background: linear-gradient(90deg, rgba(212, 16, 16, .98), rgba(170, 10, 10, .95));
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+}
+
+/* Brand */
+.rcl24-brand {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    line-height: 1.05;
+}
+
+.rcl24-brand-top {
+    font-size: 18px;
+    letter-spacing: .6px;
+    display: block;
+}
+
+.rcl24-brand-bottom {
+    font-size: 13px;
+    opacity: .9;
+    display: block;
+}
+
+/* Links */
+.rcl24-links {
+    display: flex;
+    gap: 14px;
+}
+
+.rcl24-links a {
+    color: rgba(255, 255, 255, .92);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 8px 10px;
+    border-radius: 12px;
+}
+
+.rcl24-links a:hover {
+    background: rgba(0, 0, 0, .16);
+}
+
+/* Buttons */
+.rcl24-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.rcl24-btn--ghost {
+    color: #fff;
+    background: rgba(0, 0, 0, .18);
+    border: 1px solid rgba(255, 255, 255, .18);
+}
+
+.rcl24-btn--ghost:hover {
+    filter: brightness(1.07);
+}
+
+/* Mobile bar */
+.rcl24-nav--handheld {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 10px;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, .08);
+}
+
+.rcl24-utils {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 3%;
+    justify-content: center;
+}
+
+.rcl24-utils .trp-shortcode-overlay {
+    margin: 0;
+    padding: 5px 0px;
+    border-radius: 14px;
+    width: max-content;
+}
+
+.trp-shortcode-switcher__wrapper {
+    height: 46px;
+}
+
+.trp-shortcode-switcher {
+    display: flex;
+    flex-direction: column;
+}
+
+.rcl24-nav--handheld .rcl24-ico {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    border-radius: 14px;
+    color: #7b4bb7;
+    /* your purple icon vibe */
+    text-decoration: none;
+}
+
+.rcl24-nav--handheld .rcl24-ico:hover {
+    background: rgba(123, 75, 183, .08);
+}
+
+/* ===== Header spacing (top breathing room) ===== */
+.rcl24-header {
+    /* sticky */
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+/* If WP admin bar exists, sticky header should sit below it */
+body.admin-bar .rcl24-header {
+    top: 32px;
+}
+
+@media (max-width: 782px) {
+    body.admin-bar .rcl24-header {
+        top: 46px;
+    }
+}
+
+/* Add breathing space above nav (only visually, not pushing content down too much) */
+.rcl24-header-inner {
+    padding-top: 10px;
+}
+
+/* ===== Sticky behavior with a nicer “scrolled” look ===== */
+.rcl24-header {
+    transition: box-shadow .2s ease, backdrop-filter .2s ease;
+}
+
+.rcl24-header.is-sticky {
+    box-shadow: 0 14px 30px rgba(0, 0, 0, .25);
+    backdrop-filter: blur(10px);
+}
+
+/* ===== Ribbon under nav ===== */
+.rcl24-ribbon {
+    padding: 10px 18px 12px;
+    background: rgba(0, 0, 0, .14);
+    border-bottom: 1px solid rgba(255, 255, 255, .12);
+}
+
+.rcl24-ribbon-inner {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: rgba(255, 255, 255, .92);
+    font-size: 13.5px;
+}
+
+.rcl24-ribbon-title {
+    font-weight: 900;
+}
+
+.rcl24-ribbon .rcl24-dot {
+    opacity: .85;
+}
+
+/* CTA on the ribbon */
+.rcl24-ribbon-cta {
+    margin-left: auto;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+    padding: 8px 12px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, .18);
+    border: 1px solid rgba(255, 255, 255, .18);
+}
+
+.rcl24-ribbon-cta:hover {
+    filter: brightness(1.07);
+}
+
+/* Mobile: CTA goes to next line and aligns left */
+@media (max-width: 640px) {
+    .rcl24-ribbon-cta {
+        margin-left: 0;
+    }
+}
+
+
+/* admin bar offset */
+body.admin-bar .rcl24-header {
+    top: 32px;
+}
+
+@media (max-width: 782px) {
+    body.admin-bar .rcl24-header {
+        top: 46px;
+    }
+}
+
+/* Make the entire header area sticky (desktop + ribbon + handheld) */
+#masthead.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    transition: padding .18s ease;
+}
+
+
+#masthead.site-header {
+    box-shadow: 0 14px 30px rgba(0, 0, 0, .18);
+}
+
+/* when scrolled */
+#masthead.site-header.is-scrolled {
+    padding-top: 0;
+}
+
+
+/* After scroll */
+#masthead.site-header.is-scrolled .rcl24-header-inner {
+    padding-top: 0;
+}
+
+
+/* Handheld bar row */
+.rcl24-handheld {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, .08);
+}
+
+/* buttons */
+.rcl24-hbtn {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 16px;
+    border: 0;
+    background: transparent;
+    color: #7b4bb7;
+    /* matches your purple */
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.rcl24-hbtn:hover {
+    background: rgba(123, 75, 183, .08);
+}
+
+/* cart badge */
+.rcl24-hbadge {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #d41010;
+}
+
+/* Panels */
+/* Shared panel base */
+.rcl24-panel {
+    position: fixed;
+    top: var(--rcl24-handheld-h);
+    right: 0;
+    height: calc(100vh - var(--rcl24-handheld-h));
+    width: min(360px, 92vw);
+    z-index: 10000;
+
+    transform: translateX(110%);
+    opacity: 0;
+    pointer-events: none;
+
+    transition: transform .22s ease, opacity .22s ease;
+    padding: 12px;
+}
+
+.rcl24-panel.is-open {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Your inner styling stays */
+.rcl24-panel-inner {
+    height: 100%;
+    background: rgba(20, 20, 20, .92);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .14);
+    border-radius: 18px;
+    overflow: hidden;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 22px 60px rgba(0, 0, 0, .45);
+}
+
+/* Backdrop */
+.rcl24-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, .35);
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .2s ease;
+}
+
+.rcl24-backdrop.is-open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.rcl24-panel-link {
+    display: block;
+    padding: 12px 10px;
+    border-radius: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.rcl24-panel-link:hover {
+    background: rgba(255, 255, 255, .08);
+}
+
+/* Backdrop */
+.rcl24-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .35);
+    z-index: 9999;
+}
+
+/* Make sure only handheld shows on small screens */
+.rcl24-header-handheld {
+    display: none;
+}
+
+@media (max-width: 980px) {
+    .rcl24-header-handheld {
+        display: block;
+    }
+
+    .rcl24-brand-top {
+        font-size: 21px !important;
+    }
+
+    .rcl24-brand-bottom {
+        font-size: 17px !important;
+    }
+}
+
+:root {
+    --rcl24-handheld-h: 64px;
+    /* adjust if you want 60/70 */
+}
+
+/* Ensure the handheld bar matches that height */
+.rcl24-handheld {
+    height: var(--rcl24-handheld-h);
+    padding: 0 10px;
+    /* remove vertical padding since height is fixed */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, .08);
+}
+
+
+.rcl24-panel-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 14px;
+    font-weight: 900;
+    border-bottom: 1px solid rgba(255, 255, 255, .12);
+}
+
+.rcl24-lang-mini .rcl24-lang-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.rcl24-lang-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 14px 12px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-weight: 900;
+    color: #fff;
+
+    background: rgba(255, 255, 255, .08);
+    border: 1px solid rgba(255, 255, 255, .14);
+}
+
+.rcl24-lang-btn img {
+    width: 20px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.rcl24-lang-btn.is-active {
+    background: rgba(212, 16, 16, .25);
+    border-color: rgba(212, 16, 16, .40);
+}
+
+.rcl24-lang-note {
+    margin: 12px 2px 0;
+    font-size: 12px;
+    opacity: .85;
+}
+
+/* ===== FORCE handheld panels to be right-side drawers ===== */
+:root {
+    --rcl24-handheld-h: 64px;
+}
+
+/* must match your handheld bar height */
+
+.rcl24-header-handheld .rcl24-panel {
+    position: fixed !important;
+
+    /* align under the white handheld bar */
+    top: 0;
+    right: 0 !important;
+    left: auto !important;
+    bottom: auto !important;
+
+    width: 100vw;
+    height: 100vh;
+
+    padding: 0% !important;
+    z-index: 10000 !important;
+
+    /* off-canvas default */
+    transform: translateX(110%) !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+
+    transition: transform .22s ease, opacity .22s ease !important;
+    padding: 12px !important;
+}
+
+.rcl24-header-handheld .rcl24-panel.is-open {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+/* Panel inner visuals */
+.rcl24-header-handheld .rcl24-panel-inner {
+    height: 100% !important;
+    background: rgba(20, 20, 20, .92) !important;
+    color: #fff !important;
+    border: 1px solid rgba(255, 255, 255, .14) !important;
+    border-radius: 18px !important;
+    overflow: hidden !important;
+    backdrop-filter: blur(12px) !important;
+    box-shadow: 0 22px 60px rgba(0, 0, 0, .45) !important;
+}
+
+/* Backdrop under the handheld bar */
+.rcl24-header-handheld .rcl24-backdrop {
+    position: fixed !important;
+    top: var(--rcl24-handheld-h) !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    z-index: 9999 !important;
+
+    background: rgba(0, 0, 0, .35) !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    transition: opacity .2s ease !important;
+}
+
+.rcl24-header-handheld .rcl24-backdrop.is-open {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+/* Dropdown container */
+.rcl24-lang-dd {
+    position: absolute;
+    top: calc(var(--rcl24-handheld-h, 64px) + 6px);
+    right: 60px;
+    /* puts it near the globe icon; tweak if needed */
+    z-index: 10050;
+
+    opacity: 0;
+    transform: translateY(-6px);
+    pointer-events: none;
+    transition: opacity .16s ease, transform .16s ease;
+}
+
+/* When open */
+.rcl24-lang-dd.is-open {
+    opacity: 1;
+    transform: translateY(-12px) translateX(140px);
+    pointer-events: auto;
+}
+
+/* The actual dropdown box */
+.rcl24-lang-dd-inner {
+    min-width: 190px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, .12);
+
+    /* black background with a tiny red glow top-right */
+    background:
+        radial-gradient(120px 60px at 96% 0%,
+            rgba(212, 16, 16, .35) 0%,
+            rgba(212, 16, 16, 0) 55%),
+        rgba(10, 10, 10, .96);
+
+    box-shadow: 0 18px 50px rgba(0, 0, 0, .55);
+    backdrop-filter: blur(10px);
+}
+
+/* Items */
+.rcl24-lang-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 12px;
+    color: rgba(255, 255, 255, .92);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.rcl24-lang-item img {
+    width: 20px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Hover */
+.rcl24-lang-item:hover {
+    background: rgba(255, 255, 255, .06);
+}
+
+/* Active/current language */
+.rcl24-lang-item.is-active {
+    background: rgba(255, 255, 255, .08);
+    color: #fff;
+    cursor: default;
+}
+
+/* Prevent "active" from looking clickable */
+.rcl24-lang-item.is-active:hover {
+    background: rgba(255, 255, 255, .08);
+}
+
+header .fas {
+    font-size: x-large;
+}
+
+
+
+/* ------------------ */
+
+/* =========================
+   Handheld Option A
+   Black glass + red accent
+   ========================= */
+
+.rcl24-handheld.rcl24-handheld--blackglass {
+    height: var(--rcl24-handheld-h, 64px);
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #BD1919;
+    background: radial-gradient(circle, rgba(189, 25, 25, 1) 10%, rgba(102, 3, 3, 0.76) 47%);
+
+    border-bottom: 1px solid rgba(255, 255, 255, .10);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .35);
+}
+
+.rcl24-handheld--blackglass .rcl24-hbtn {
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, .10);
+    background: rgba(255, 255, 255, .04);
+    color: rgba(255, 255, 255, .92);
+}
+
+.rcl24-handheld--blackglass .rcl24-hbtn:hover {
+    background: rgba(255, 255, 255, .07);
+    border-color: rgba(255, 255, 255, .14);
+}
+
+.rcl24-handheld--blackglass .rcl24-hbtn:active {
+    transform: translateY(1px);
+}
+
+.rcl24-handheld--blackglass .rcl24-hbadge {
+    background: rgba(212, 16, 16, .95);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .20);
+}
+
+/* Optional "active" ring (use class .is-active on the button) */
+.rcl24-handheld--blackglass .rcl24-hbtn.is-active {
+    border-color: rgba(212, 16, 16, .55);
+    box-shadow: 0 0 0 3px rgba(212, 16, 16, .12);
+}
+
+/* =========================
+   Handheld Option B
+   Red glass + white icons
+   ========================= */
+
+.rcl24-handheld.rcl24-handheld--redglass {
+    height: var(--rcl24-handheld-h, 64px);
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background:
+        radial-gradient(160px 80px at 95% 0%,
+            rgba(255, 255, 255, .14) 0%,
+            rgba(255, 255, 255, 0) 60%),
+        rgba(212, 16, 16, .62);
+
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .25);
+}
+
+.rcl24-handheld--redglass .rcl24-hbtn {
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, .18);
+    background: rgba(255, 255, 255, .08);
+    color: rgba(255, 255, 255, .95);
+    /* icons stay white */
+}
+
+.rcl24-handheld--redglass .rcl24-hbtn:hover {
+    background: rgba(255, 255, 255, .12);
+    border-color: rgba(255, 255, 255, .24);
+}
+
+.rcl24-handheld--redglass .rcl24-hbtn:active {
+    transform: translateY(1px);
+}
+
+.rcl24-handheld--redglass .rcl24-hbadge {
+    background: rgba(0, 0, 0, .78);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .22);
+}
+
+/* If you show any labels in handheld later, use black-ish text */
+.rcl24-handheld--redglass .rcl24-hlabel {
+    color: rgba(0, 0, 0, .86);
+    font-weight: 900;
+}
+
+.rcl24-loyalty-couponbox h4 {
+    color: #ffffff;
+}
+
+
+.rcl24-brand-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 62px;
+    align-items: center;
+}
+
+.rcl24-brand-mobile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Mobile logo animation */
+.rcl24-mobile-logo {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 2px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: .5px;
+
+    transition: transform .22s ease, opacity .22s ease, filter .22s ease;
+    will-change: transform, opacity;
+}
+
+/* Hidden state */
+.rcl24-mobile-logo.is-hidden {
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+    filter: blur(1px);
+}
+
+
+.rcl24-brand-container.is-collapsed {
+    padding: 0 !important;
+    transition: all .2s ease-in;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .rcl24-ribbon {
+        padding: 8px 10px;
+    }
+
+    .rcl24-ribbon-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .rcl24-ribbon-text {
+        font-size: 12px;
+        line-height: 1.2;
+        opacity: .95;
+        max-width: calc(100% - 82px);
+        /* leave room for CTA */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .rcl24-ribbon-cta {
+        flex: 0 0 auto;
+        padding: 8px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 800;
+        background: rgba(0, 0, 0, .18);
+        border: 1px solid rgba(255, 255, 255, .14);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+}
+
+
+/* Language dropdown (the small one) should be above everything */
+#rcl24-lang-dd,
+.rcl24-lang-dd {
+    position: absolute;
+    z-index: 999999;
+    /* above sticky header + everything */
+    pointer-events: auto;
+}
+
+/* If you have a backdrop, keep it below dropdown */
+#rcl24-backdrop,
+.rcl24-backdrop {
+    z-index: 999900;
+}
+
+/* Ensure the dropdown itself receives clicks */
+.rcl24-lang-dd.is-open {
+    pointer-events: auto;
+    opacity: 1;
+    visibility: visible;
+}
+
+.rcl24-lang-dd:not(.is-open) {
+    pointer-events: none;
+    /* only when closed */
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+/* Ribbon default (visible) */
+#rcl24-ribbon,
+.rcl24-ribbon {
+    transition: max-height .25s ease, padding .25s ease, opacity .2s ease, transform .25s ease;
+    transform: translateY(0);
+    opacity: 1;
+    max-height: 140px;
+    /* enough for 2 lines + CTA */
+    overflow: hidden;
+}
+
+/* Collapsed while scrolled */
+#rcl24-ribbon.is-collapsed,
+.rcl24-ribbon.is-collapsed {
+    max-height: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    opacity: 0;
+    transform: translateY(-6px);
+    pointer-events: none;
+}
