@@ -59,7 +59,7 @@ I worked on the website’s **development and customization**, including:
 ├── screenshots/
 │   ├── desktop/            # Desktop UI screenshots
 │   ├── mobile/             # Mobile UI screenshots
-│   ├── user-actions/       # User-flow screenshots (if applicable)
-│   └── fixes-and-features.md   # Key issues solved and features/customizations implemented
+│   └── user-actions/       # User-flow screenshots (if applicable)
+├── fixes-and-features.md   # Key issues solved and features/customizations implemented
 ├── .gitignore
 └── README.md
