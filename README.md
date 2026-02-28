@@ -1,52 +1,69 @@
 # Rental Car Larissa 24 — Customizations (WordPress)
 
-Αυτό το repository περιλαμβάνει development/custom code υλοποιήσεις για το project **Rental Car Larissa 24**.
+This repository contains **sanitized development/custom code** for the production website **Rental Car Larissa 24**.
 
-> Το production website φιλοξενείται σε server (Hostinger).  
-> Το repo περιλαμβάνει **customizations, snippets και theme-level changes** για portfolio / παρουσίαση τεχνικής δουλειάς.
+> The production website is hosted on **Hostinger**.  
+> This repo is a **portfolio-safe version** that showcases my custom work (child theme, custom plugins, UI/UX fixes, snippets, and implementation notes).
+
+---
 
 ## Live Project
-- Website: https://rentalcarlarissa24.com/en/
+- **Website:** https://rentalcarlarissa24.com/en/
 
-## Περιγραφή Project
-Ιστοσελίδα ενοικίασης αυτοκινήτων με WordPress, με έμφαση σε:
-- παρουσίαση στόλου οχημάτων
+---
+
+## Project Overview
+Rental Car Larissa 24 is a WordPress-based car rental website focused on:
+
+- vehicle fleet presentation
 - online booking flow
-- multilingual εμπειρία (EN/GR)
-- βελτιώσεις UI/UX
-- custom styling και λειτουργικές προσαρμογές
+- multilingual experience (EN / GR)
+- customer-facing pages (About, Contact, FAQ)
+- promotions / loyalty sections
+- UI/UX improvements across desktop and mobile
 
-## Τεχνολογίες
-- WordPress
-- PHP
-- HTML / CSS / JavaScript
-- WooCommerce (όπου εφαρμόζεται)
-- Custom theme / child theme customizations
-- TranslatePress (όπου εφαρμόζεται)
+This repository documents the **customizations and technical implementation work** used to support and improve the project.
 
-## Τι περιλαμβάνει το repo
-- `child-theme/` → custom theme files (CSS/JS/PHP/templates)
-- `snippets/` → οργανωμένα snippets και fixes
-- `docs/` → τεκμηρίωση, screenshots και notes
-- `portfolio/` → περιγραφή project για CV/portfolio χρήση
+---
 
-## Σημείωση Ασφαλείας
-Το repository είναι **sanitized**:
-- Δεν περιλαμβάνει credentials
-- Δεν περιλαμβάνει database dumps
-- Δεν περιλαμβάνει προσωπικά δεδομένα πελατών
-- Δεν περιλαμβάνει private keys / secrets
+## My Role / Contribution
+I worked on the website’s **development and customization**, including:
 
-## Ενδεικτικές Customizations
-- UI/UX βελτιώσεις σε homepage / fleet / checkout
-- Conditional asset loading (page-specific CSS/JS)
-- WooCommerce template & checkout tweaks
-- Language switcher / multilingual fixes
-- Responsive layout fixes και overflow fixes
+- Child theme development/customization
+- Custom CSS/JS/PHP implementations
+- WooCommerce/checkout UI and behavior tweaks
+- Multilingual UI fixes (TranslatePress-related adjustments)
+- Responsive UI improvements (desktop + mobile)
+- Troubleshooting and debugging of layout/functionality issues
+- Custom plugin development for project-specific features
 
-## Screenshots
-Δες τον φάκελο `docs/screenshots/`.
+---
 
-## Author
-**Παναγιώτης Αργυρόπουλος**  
-Full Stack Developer
+## Tech Stack / Tools
+- **WordPress**
+- **PHP**
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **WooCommerce** (where applicable)
+- **TranslatePress** (where applicable)
+- **Hostinger** (production hosting)
+
+---
+
+## Repository Structure
+```text
+.
+├── child-theme/                # Child theme files (styles, functions, templates, assets)
+├── custom-plugins/             # Custom plugins created for project-specific functionality
+├── docs/
+│   ├── screenshots/
+│   │   ├── desktop/            # Desktop UI screenshots
+│   │   ├── mobile/             # Mobile UI screenshots
+│   │   └── user-actions/       # User-flow screenshots (if applicable)
+│   ├── project-overview.md     # (Optional) technical project summary
+│   ├── setup-notes.md          # (Optional) notes about sanitized repo / setup limitations
+│   └── fixes-and-features.md   # Key issues solved and features/customizations implemented
+├── snippets/                   # Reusable snippets / notes / isolated fixes
+├── .gitignore
+└── README.md
